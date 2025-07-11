@@ -1,0 +1,63 @@
+{
+  "teilnehmer": "teilnehmer_08",
+  "szenario": "Musikintervention",
+  "start": "2025-05-22 13:11:00",
+  "end": "2025-05-22 13:13:00",
+  "pulse_rate": [
+    {
+      "timestamp_iso": "2025-05-22 13:11:00",
+      "pulse_rate_bpm": 80.0
+    },
+    {
+      "timestamp_iso": "2025-05-22 13:12:00",
+      "pulse_rate_bpm": 80.0
+    },
+    {
+      "timestamp_iso": "2025-05-22 13:13:00",
+      "pulse_rate_bpm": 77.0
+    }
+  ],
+  "eda": [
+    {
+      "timestamp_iso": "2025-05-22 13:11:00",
+      "eda_scl_usiemens": 1.72
+    },
+    {
+      "timestamp_iso": "2025-05-22 13:12:00",
+      "eda_scl_usiemens": 1.41
+    },
+    {
+      "timestamp_iso": "2025-05-22 13:13:00",
+      "eda_scl_usiemens": 1.26
+    }
+  ],
+  "prv_rmssd_ms": [],
+  "accelerometer_std_g": [
+    {
+      "timestamp_iso": "2025-05-22 13:11:00",
+      "accelerometers_std_g": 0.007
+    },
+    {
+      "timestamp_iso": "2025-05-22 13:12:00",
+      "accelerometers_std_g": 0.004
+    },
+    {
+      "timestamp_iso": "2025-05-22 13:13:00",
+      "accelerometers_std_g": 0.004
+    }
+  ],
+  "screenshots": [
+    "teilnehmer_08/Musikintervention/screenshots/teilnehmer_08_musikintervention_0001.jpg",
+    "teilnehmer_08/Musikintervention/screenshots/teilnehmer_08_musikintervention_0002.jpg",
+    "teilnehmer_08/Musikintervention/screenshots/teilnehmer_08_musikintervention_0003.jpg",
+    "teilnehmer_08/Musikintervention/screenshots/teilnehmer_08_musikintervention_0004.jpg",
+    "teilnehmer_08/Musikintervention/screenshots/teilnehmer_08_musikintervention_0005.jpg",
+    "teilnehmer_08/Musikintervention/screenshots/teilnehmer_08_musikintervention_0006.jpg",
+    "teilnehmer_08/Musikintervention/screenshots/teilnehmer_08_musikintervention_0007.jpg",
+    "teilnehmer_08/Musikintervention/screenshots/teilnehmer_08_musikintervention_0008.jpg",
+    "teilnehmer_08/Musikintervention/screenshots/teilnehmer_08_musikintervention_0009.jpg",
+    "teilnehmer_08/Musikintervention/screenshots/teilnehmer_08_musikintervention_0010.jpg",
+    "teilnehmer_08/Musikintervention/screenshots/teilnehmer_08_musikintervention_0011.jpg",
+    "teilnehmer_08/Musikintervention/screenshots/teilnehmer_08_musikintervention_0012.jpg"
+  ]
+}

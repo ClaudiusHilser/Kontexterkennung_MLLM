@@ -1,0 +1,662 @@
+Sekunde,Frage,Antwort
+0,"Hinweis: Die folgenden Daten stammen aus einem experimentellen Fahrsimulator („Fahrkiste“). Die Versuchsperson sitzt in einem fest installierten Fahrersitz mit Lenkrad und führt simulierte Fahrszenarien durch. Die Kamera zeigt das Gesicht, den Oberkörper und das Blickverhalten der Person. Die Fahrt erfolgt im Modus SAE Level 3 (hochautomatisiert). Die Fahrzeugführung übernimmt das System, die Person darf sich temporär anderen Tätigkeiten widmen, muss jedoch jederzeit übernahmebereit bleiben, da der Mensch weiterhin die übergeordnete Verantwortung trägt.
+
+            Bildzeitpunkt: 2025-05-22 13:08:00
+            Physiologische Werte:
+            - Puls: 74.0 bpm
+            - EDA: 1.69 µS
+            - RMSSD: n/a ms
+            - Bewegung: 0.003 g
+
+            Du erhältst ein Bild und physiologische Daten (Puls, EDA, RMSSD, Bewegung) und sollst den Zustand der Person bewerten – ausschließlich in Bezug auf:
+
+            - Stress
+            - Entspannung
+            - Ablenkung
+
+            Für jede Kategorie gib bitte eine von drei Stufen an: **niedrig**, **mittel** oder **hoch**. Gib zusätzlich je einen Satz Begründung auf Basis des Bildes und
+            der physiologischen Werte.
+
+            Wichtig:
+            - Falls eine Datenquelle (Bild oder Physiologie) die Einschätzung besonders beeinflusst hat, gib dies am Ende explizit an.
+
+            Beispielhafte Antwortstruktur:
+
+            Stress: mittel – Der Puls ist leicht erhöht, die Mimik angespannt.  
+            Entspannung: niedrig – Körperhaltung wirkt angespannt.  
+            Ablenkung: hoch – Der Blick richtet sich deutlich auf das Infotainmentsystem.  
+            Dominierende Datenquelle: Die Einschätzung basiert hauptsächlich auf der Pulsrate, da diese deutlich erhöht ist.","Stress: niedrig – Der Puls von 74 bpm und der geringe Bewegungswert deuten darauf hin, dass die Person relativ entspannt ist.
+Entspannung: mittel – Die körperliche Haltung wirkt relativ locker, was auf eine gewisse Entspannung hindeutet.
+Ablenkung: niedrig – Der Blick ist auf den Bildschirm gerichtet, was darauf hinweist, dass die Person auf ihr Umfeld achtet und bereit ist, sich mit der Fahraufgabe zu befassen.
+Dominierende Datenquelle: Die Einschätzung basiert hauptsächlich auf den physiologischen Werten, die auf ein niedriges Stressniveau hinweisen."
+10,"Hinweis: Die folgenden Daten stammen aus einem experimentellen Fahrsimulator („Fahrkiste“). Die Versuchsperson sitzt in einem fest installierten Fahrersitz mit Lenkrad und führt simulierte Fahrszenarien durch. Die Kamera zeigt das Gesicht, den Oberkörper und das Blickverhalten der Person. Die Fahrt erfolgt im Modus SAE Level 3 (hochautomatisiert). Die Fahrzeugführung übernimmt das System, die Person darf sich temporär anderen Tätigkeiten widmen, muss jedoch jederzeit übernahmebereit bleiben, da der Mensch weiterhin die übergeordnete Verantwortung trägt.
+
+            Bildzeitpunkt: 2025-05-22 13:08:10
+            Physiologische Werte:
+            - Puls: 74.0 bpm
+            - EDA: 1.69 µS
+            - RMSSD: n/a ms
+            - Bewegung: 0.003 g
+
+            Du erhältst ein Bild und physiologische Daten (Puls, EDA, RMSSD, Bewegung) und sollst den Zustand der Person bewerten – ausschließlich in Bezug auf:
+
+            - Stress
+            - Entspannung
+            - Ablenkung
+
+            Für jede Kategorie gib bitte eine von drei Stufen an: **niedrig**, **mittel** oder **hoch**. Gib zusätzlich je einen Satz Begründung auf Basis des Bildes und
+            der physiologischen Werte.
+
+            Wichtig:
+            - Falls eine Datenquelle (Bild oder Physiologie) die Einschätzung besonders beeinflusst hat, gib dies am Ende explizit an.
+
+            Beispielhafte Antwortstruktur:
+
+            Stress: mittel – Der Puls ist leicht erhöht, die Mimik angespannt.  
+            Entspannung: niedrig – Körperhaltung wirkt angespannt.  
+            Ablenkung: hoch – Der Blick richtet sich deutlich auf das Infotainmentsystem.  
+            Dominierende Datenquelle: Die Einschätzung basiert hauptsächlich auf der Pulsrate, da diese deutlich erhöht ist.","Stress: niedrig – Der Puls von 74.0 bpm liegt im normalen Bereich und die elektrische Hautaktivität (EDA) von 1.69 µS deutet auf ein geringes Stressniveau hin.  
+
+Entspannung: mittel – Der Körper wirkt relativ entspannt, aber die Haltung zeigt, dass sie aufmerksam ist und jederzeit übernehmen kann.  
+
+Ablenkung: hoch – Der Blick scheint auf den Bildschirm gerichtet zu sein, was auf eine starke Ablenkung von der Fahrsituation hindeutet.  
+
+Dominierende Datenquelle: Die Einschätzung basiert hauptsächlich auf der Analyse des Bildes, insbesondere die Blickrichtung."
+20,"Hinweis: Die folgenden Daten stammen aus einem experimentellen Fahrsimulator („Fahrkiste“). Die Versuchsperson sitzt in einem fest installierten Fahrersitz mit Lenkrad und führt simulierte Fahrszenarien durch. Die Kamera zeigt das Gesicht, den Oberkörper und das Blickverhalten der Person. Die Fahrt erfolgt im Modus SAE Level 3 (hochautomatisiert). Die Fahrzeugführung übernimmt das System, die Person darf sich temporär anderen Tätigkeiten widmen, muss jedoch jederzeit übernahmebereit bleiben, da der Mensch weiterhin die übergeordnete Verantwortung trägt.
+
+            Bildzeitpunkt: 2025-05-22 13:08:20
+            Physiologische Werte:
+            - Puls: 74.0 bpm
+            - EDA: 1.69 µS
+            - RMSSD: n/a ms
+            - Bewegung: 0.003 g
+
+            Du erhältst ein Bild und physiologische Daten (Puls, EDA, RMSSD, Bewegung) und sollst den Zustand der Person bewerten – ausschließlich in Bezug auf:
+
+            - Stress
+            - Entspannung
+            - Ablenkung
+
+            Für jede Kategorie gib bitte eine von drei Stufen an: **niedrig**, **mittel** oder **hoch**. Gib zusätzlich je einen Satz Begründung auf Basis des Bildes und
+            der physiologischen Werte.
+
+            Wichtig:
+            - Falls eine Datenquelle (Bild oder Physiologie) die Einschätzung besonders beeinflusst hat, gib dies am Ende explizit an.
+
+            Beispielhafte Antwortstruktur:
+
+            Stress: mittel – Der Puls ist leicht erhöht, die Mimik angespannt.  
+            Entspannung: niedrig – Körperhaltung wirkt angespannt.  
+            Ablenkung: hoch – Der Blick richtet sich deutlich auf das Infotainmentsystem.  
+            Dominierende Datenquelle: Die Einschätzung basiert hauptsächlich auf der Pulsrate, da diese deutlich erhöht ist.","Stress: niedrig – Der Puls von 74 bpm und der niedrige EDA-Wert von 1.69 µS deuten darauf hin, dass die physiologische Anspannung minimal ist.
+
+Entspannung: mittel – Die Körperhaltung wirkt relativ entspannt, aber nicht völlig entspannt; darauf weist auch die moderate Bewegung von 0.003 g hin.
+
+Ablenkung: mittel – Die Person scheint sich auf den Monitor zu konzentrieren, was auf eine gewisse Ablenkung hindeuten könnte.
+
+Dominierende Datenquelle: Die Einschätzung basiert hauptsächlich auf den physiologischen Werten, die auf einen niedrigen Stresspegel hindeuten."
+30,"Hinweis: Die folgenden Daten stammen aus einem experimentellen Fahrsimulator („Fahrkiste“). Die Versuchsperson sitzt in einem fest installierten Fahrersitz mit Lenkrad und führt simulierte Fahrszenarien durch. Die Kamera zeigt das Gesicht, den Oberkörper und das Blickverhalten der Person. Die Fahrt erfolgt im Modus SAE Level 3 (hochautomatisiert). Die Fahrzeugführung übernimmt das System, die Person darf sich temporär anderen Tätigkeiten widmen, muss jedoch jederzeit übernahmebereit bleiben, da der Mensch weiterhin die übergeordnete Verantwortung trägt.
+
+            Bildzeitpunkt: 2025-05-22 13:08:30
+            Physiologische Werte:
+            - Puls: 74.0 bpm
+            - EDA: 1.69 µS
+            - RMSSD: n/a ms
+            - Bewegung: 0.003 g
+
+            Du erhältst ein Bild und physiologische Daten (Puls, EDA, RMSSD, Bewegung) und sollst den Zustand der Person bewerten – ausschließlich in Bezug auf:
+
+            - Stress
+            - Entspannung
+            - Ablenkung
+
+            Für jede Kategorie gib bitte eine von drei Stufen an: **niedrig**, **mittel** oder **hoch**. Gib zusätzlich je einen Satz Begründung auf Basis des Bildes und
+            der physiologischen Werte.
+
+            Wichtig:
+            - Falls eine Datenquelle (Bild oder Physiologie) die Einschätzung besonders beeinflusst hat, gib dies am Ende explizit an.
+
+            Beispielhafte Antwortstruktur:
+
+            Stress: mittel – Der Puls ist leicht erhöht, die Mimik angespannt.  
+            Entspannung: niedrig – Körperhaltung wirkt angespannt.  
+            Ablenkung: hoch – Der Blick richtet sich deutlich auf das Infotainmentsystem.  
+            Dominierende Datenquelle: Die Einschätzung basiert hauptsächlich auf der Pulsrate, da diese deutlich erhöht ist.","Stress: niedrig – Der Puls von 74.0 bpm liegt im normalen Bereich und die Körperhaltung wirkt entspannt.  
+Entspannung: mittel – Der Körper wirkt relativ entspannt und unangespannt.  
+Ablenkung: hoch – Die Person schaut direkt auf das Display eines Infotainmentsystems, was auf Ablenkung hinweist.  
+Dominierende Datenquelle: Die Einschätzung basiert hauptsächlich auf dem Bild, da es deutlich das Blickverhalten auf das Display zeigt."
+40,"Hinweis: Die folgenden Daten stammen aus einem experimentellen Fahrsimulator („Fahrkiste“). Die Versuchsperson sitzt in einem fest installierten Fahrersitz mit Lenkrad und führt simulierte Fahrszenarien durch. Die Kamera zeigt das Gesicht, den Oberkörper und das Blickverhalten der Person. Die Fahrt erfolgt im Modus SAE Level 3 (hochautomatisiert). Die Fahrzeugführung übernimmt das System, die Person darf sich temporär anderen Tätigkeiten widmen, muss jedoch jederzeit übernahmebereit bleiben, da der Mensch weiterhin die übergeordnete Verantwortung trägt.
+
+            Bildzeitpunkt: 2025-05-22 13:08:40
+            Physiologische Werte:
+            - Puls: 74.0 bpm
+            - EDA: 1.69 µS
+            - RMSSD: n/a ms
+            - Bewegung: 0.003 g
+
+            Du erhältst ein Bild und physiologische Daten (Puls, EDA, RMSSD, Bewegung) und sollst den Zustand der Person bewerten – ausschließlich in Bezug auf:
+
+            - Stress
+            - Entspannung
+            - Ablenkung
+
+            Für jede Kategorie gib bitte eine von drei Stufen an: **niedrig**, **mittel** oder **hoch**. Gib zusätzlich je einen Satz Begründung auf Basis des Bildes und
+            der physiologischen Werte.
+
+            Wichtig:
+            - Falls eine Datenquelle (Bild oder Physiologie) die Einschätzung besonders beeinflusst hat, gib dies am Ende explizit an.
+
+            Beispielhafte Antwortstruktur:
+
+            Stress: mittel – Der Puls ist leicht erhöht, die Mimik angespannt.  
+            Entspannung: niedrig – Körperhaltung wirkt angespannt.  
+            Ablenkung: hoch – Der Blick richtet sich deutlich auf das Infotainmentsystem.  
+            Dominierende Datenquelle: Die Einschätzung basiert hauptsächlich auf der Pulsrate, da diese deutlich erhöht ist.","Stress: niedrig – Der Puls von 74 bpm liegt im normalen Bereich und die Körperhaltung auf dem Bild wirkt entspannt.  
+Entspannung: mittel – Die Person zeigt eine lockere Körperhaltung, was auf eine gewisse Entspannung hindeutet, jedoch nicht vollständig entspannt.  
+Ablenkung: hoch – Der Blick und die Körperausrichtung sind deutlich in Richtung des Bildschirms gerichtet, was auf eine starke Ablenkung hindeutet.  
+Dominierende Datenquelle: Die Einschätzung basiert hauptsächlich auf der visuellen Beobachtung der Körperhaltung und Blickrichtung, die auf Ablenkung hinweist."
+50,"Hinweis: Die folgenden Daten stammen aus einem experimentellen Fahrsimulator („Fahrkiste“). Die Versuchsperson sitzt in einem fest installierten Fahrersitz mit Lenkrad und führt simulierte Fahrszenarien durch. Die Kamera zeigt das Gesicht, den Oberkörper und das Blickverhalten der Person. Die Fahrt erfolgt im Modus SAE Level 3 (hochautomatisiert). Die Fahrzeugführung übernimmt das System, die Person darf sich temporär anderen Tätigkeiten widmen, muss jedoch jederzeit übernahmebereit bleiben, da der Mensch weiterhin die übergeordnete Verantwortung trägt.
+
+            Bildzeitpunkt: 2025-05-22 13:08:50
+            Physiologische Werte:
+            - Puls: 74.0 bpm
+            - EDA: 1.69 µS
+            - RMSSD: n/a ms
+            - Bewegung: 0.003 g
+
+            Du erhältst ein Bild und physiologische Daten (Puls, EDA, RMSSD, Bewegung) und sollst den Zustand der Person bewerten – ausschließlich in Bezug auf:
+
+            - Stress
+            - Entspannung
+            - Ablenkung
+
+            Für jede Kategorie gib bitte eine von drei Stufen an: **niedrig**, **mittel** oder **hoch**. Gib zusätzlich je einen Satz Begründung auf Basis des Bildes und
+            der physiologischen Werte.
+
+            Wichtig:
+            - Falls eine Datenquelle (Bild oder Physiologie) die Einschätzung besonders beeinflusst hat, gib dies am Ende explizit an.
+
+            Beispielhafte Antwortstruktur:
+
+            Stress: mittel – Der Puls ist leicht erhöht, die Mimik angespannt.  
+            Entspannung: niedrig – Körperhaltung wirkt angespannt.  
+            Ablenkung: hoch – Der Blick richtet sich deutlich auf das Infotainmentsystem.  
+            Dominierende Datenquelle: Die Einschätzung basiert hauptsächlich auf der Pulsrate, da diese deutlich erhöht ist.","Stress: niedrig – Der Puls von 74 bpm ist im normalen Bereich, und die EDA ist ebenfalls relativ niedrig, was auf einen entspannten Zustand hinweist.  
+Entspannung: mittel – Die Person sitzt entspannt zurückgelehnt, was eine mittlere Entspannung suggeriert, allerdings ist die vollständige Entspannung nicht offensichtlich.  
+Ablenkung: niedrig – Der Blick scheint auf den Bildschirm gerichtet, was auf Aufmerksamkeit gegenüber der bevorstehenden Fahrzeugübernahme hinweist.  
+Dominierende Datenquelle: Die Einschätzung basiert hauptsächlich auf den physiologischen Werten, insbesondere dem normalen Puls und der niedrigen EDA."
+60,"Hinweis: Die folgenden Daten stammen aus einem experimentellen Fahrsimulator („Fahrkiste“). Die Versuchsperson sitzt in einem fest installierten Fahrersitz mit Lenkrad und führt simulierte Fahrszenarien durch. Die Kamera zeigt das Gesicht, den Oberkörper und das Blickverhalten der Person. Die Fahrt erfolgt im Modus SAE Level 3 (hochautomatisiert). Die Fahrzeugführung übernimmt das System, die Person darf sich temporär anderen Tätigkeiten widmen, muss jedoch jederzeit übernahmebereit bleiben, da der Mensch weiterhin die übergeordnete Verantwortung trägt.
+
+            Bildzeitpunkt: 2025-05-22 13:09:00
+            Physiologische Werte:
+            - Puls: 77.0 bpm
+            - EDA: 2.26 µS
+            - RMSSD: n/a ms
+            - Bewegung: 0.011 g
+
+            Du erhältst ein Bild und physiologische Daten (Puls, EDA, RMSSD, Bewegung) und sollst den Zustand der Person bewerten – ausschließlich in Bezug auf:
+
+            - Stress
+            - Entspannung
+            - Ablenkung
+
+            Für jede Kategorie gib bitte eine von drei Stufen an: **niedrig**, **mittel** oder **hoch**. Gib zusätzlich je einen Satz Begründung auf Basis des Bildes und
+            der physiologischen Werte.
+
+            Wichtig:
+            - Falls eine Datenquelle (Bild oder Physiologie) die Einschätzung besonders beeinflusst hat, gib dies am Ende explizit an.
+
+            Beispielhafte Antwortstruktur:
+
+            Stress: mittel – Der Puls ist leicht erhöht, die Mimik angespannt.  
+            Entspannung: niedrig – Körperhaltung wirkt angespannt.  
+            Ablenkung: hoch – Der Blick richtet sich deutlich auf das Infotainmentsystem.  
+            Dominierende Datenquelle: Die Einschätzung basiert hauptsächlich auf der Pulsrate, da diese deutlich erhöht ist.","Stress: niedrig – Der Puls liegt im normalen Bereich, und die Person zeigt keine Anzeichen einer angespannten Körperhaltung. 
+Entspannung: mittel – Das lockere Sitzen und Anlehnen deutet darauf hin, dass die Person einigermaßen entspannt ist, obwohl die Arme auf dem Simulator positioniert bleiben. 
+Ablenkung: niedrig – Der Blick ist nicht auf ein externes Gerät gerichtet, sondern eher geradeaus, was auf eine geringe Ablenkung hinweist. 
+Dominierende Datenquelle: Die Einschätzung basiert hauptsächlich auf der physiologischen Daten, insbesondere dem Puls, da dieser normal ist und auf einen niedrigen Stresslevel hinweist."
+70,"Hinweis: Die folgenden Daten stammen aus einem experimentellen Fahrsimulator („Fahrkiste“). Die Versuchsperson sitzt in einem fest installierten Fahrersitz mit Lenkrad und führt simulierte Fahrszenarien durch. Die Kamera zeigt das Gesicht, den Oberkörper und das Blickverhalten der Person. Die Fahrt erfolgt im Modus SAE Level 3 (hochautomatisiert). Die Fahrzeugführung übernimmt das System, die Person darf sich temporär anderen Tätigkeiten widmen, muss jedoch jederzeit übernahmebereit bleiben, da der Mensch weiterhin die übergeordnete Verantwortung trägt.
+
+            Bildzeitpunkt: 2025-05-22 13:09:10
+            Physiologische Werte:
+            - Puls: 77.0 bpm
+            - EDA: 2.26 µS
+            - RMSSD: n/a ms
+            - Bewegung: 0.011 g
+
+            Du erhältst ein Bild und physiologische Daten (Puls, EDA, RMSSD, Bewegung) und sollst den Zustand der Person bewerten – ausschließlich in Bezug auf:
+
+            - Stress
+            - Entspannung
+            - Ablenkung
+
+            Für jede Kategorie gib bitte eine von drei Stufen an: **niedrig**, **mittel** oder **hoch**. Gib zusätzlich je einen Satz Begründung auf Basis des Bildes und
+            der physiologischen Werte.
+
+            Wichtig:
+            - Falls eine Datenquelle (Bild oder Physiologie) die Einschätzung besonders beeinflusst hat, gib dies am Ende explizit an.
+
+            Beispielhafte Antwortstruktur:
+
+            Stress: mittel – Der Puls ist leicht erhöht, die Mimik angespannt.  
+            Entspannung: niedrig – Körperhaltung wirkt angespannt.  
+            Ablenkung: hoch – Der Blick richtet sich deutlich auf das Infotainmentsystem.  
+            Dominierende Datenquelle: Die Einschätzung basiert hauptsächlich auf der Pulsrate, da diese deutlich erhöht ist.","Stress: niedrig – Der Puls ist im normalen Bereich und die Person zeigt eine entspannte Körperhaltung.  
+Entspannung: hoch – Die Person sitzt zurückgelehnt, was auf Entspannung hindeutet, und der Puls ist ebenfalls normal.  
+Ablenkung: mittel – Die Person scheint aufmerksam auf das System vor ihr zu blicken, könnte aber leicht abgelenkt sein.  
+Dominierende Datenquelle: Die Einschätzung basiert hauptsächlich auf der Körperhaltung und der normalen Pulsrate, die zusammen Entspannung nahelegen."
+80,"Hinweis: Die folgenden Daten stammen aus einem experimentellen Fahrsimulator („Fahrkiste“). Die Versuchsperson sitzt in einem fest installierten Fahrersitz mit Lenkrad und führt simulierte Fahrszenarien durch. Die Kamera zeigt das Gesicht, den Oberkörper und das Blickverhalten der Person. Die Fahrt erfolgt im Modus SAE Level 3 (hochautomatisiert). Die Fahrzeugführung übernimmt das System, die Person darf sich temporär anderen Tätigkeiten widmen, muss jedoch jederzeit übernahmebereit bleiben, da der Mensch weiterhin die übergeordnete Verantwortung trägt.
+
+            Bildzeitpunkt: 2025-05-22 13:09:20
+            Physiologische Werte:
+            - Puls: 77.0 bpm
+            - EDA: 2.26 µS
+            - RMSSD: n/a ms
+            - Bewegung: 0.011 g
+
+            Du erhältst ein Bild und physiologische Daten (Puls, EDA, RMSSD, Bewegung) und sollst den Zustand der Person bewerten – ausschließlich in Bezug auf:
+
+            - Stress
+            - Entspannung
+            - Ablenkung
+
+            Für jede Kategorie gib bitte eine von drei Stufen an: **niedrig**, **mittel** oder **hoch**. Gib zusätzlich je einen Satz Begründung auf Basis des Bildes und
+            der physiologischen Werte.
+
+            Wichtig:
+            - Falls eine Datenquelle (Bild oder Physiologie) die Einschätzung besonders beeinflusst hat, gib dies am Ende explizit an.
+
+            Beispielhafte Antwortstruktur:
+
+            Stress: mittel – Der Puls ist leicht erhöht, die Mimik angespannt.  
+            Entspannung: niedrig – Körperhaltung wirkt angespannt.  
+            Ablenkung: hoch – Der Blick richtet sich deutlich auf das Infotainmentsystem.  
+            Dominierende Datenquelle: Die Einschätzung basiert hauptsächlich auf der Pulsrate, da diese deutlich erhöht ist.","Stress: niedrig – Der puls liegt im normalen Bereich und es gibt keine offensichtlichen Anzeichen von Stress in den physiologischen Daten oder der Körperhaltung.  
+Entspannung: mittel – Die Körperhaltung wirkt grundsätzlich entspannt, was auf eine moderate Entspannung hinweist, auch wenn die Person aufrecht sitzt und aufmerksam auf das Display schaut.  
+Ablenkung: hoch – Die Person scheint ihren Blick auf den Bildschirm zu richten und könnte durch die Informationen darauf abgelenkt sein.  
+Dominierende Datenquelle: Die Einschätzung basiert hauptsächlich auf der Beobachtung der Körperhaltung und der Blickrichtung."
+90,"Hinweis: Die folgenden Daten stammen aus einem experimentellen Fahrsimulator („Fahrkiste“). Die Versuchsperson sitzt in einem fest installierten Fahrersitz mit Lenkrad und führt simulierte Fahrszenarien durch. Die Kamera zeigt das Gesicht, den Oberkörper und das Blickverhalten der Person. Die Fahrt erfolgt im Modus SAE Level 3 (hochautomatisiert). Die Fahrzeugführung übernimmt das System, die Person darf sich temporär anderen Tätigkeiten widmen, muss jedoch jederzeit übernahmebereit bleiben, da der Mensch weiterhin die übergeordnete Verantwortung trägt.
+
+            Bildzeitpunkt: 2025-05-22 13:09:30
+            Physiologische Werte:
+            - Puls: 77.0 bpm
+            - EDA: 2.26 µS
+            - RMSSD: n/a ms
+            - Bewegung: 0.011 g
+
+            Du erhältst ein Bild und physiologische Daten (Puls, EDA, RMSSD, Bewegung) und sollst den Zustand der Person bewerten – ausschließlich in Bezug auf:
+
+            - Stress
+            - Entspannung
+            - Ablenkung
+
+            Für jede Kategorie gib bitte eine von drei Stufen an: **niedrig**, **mittel** oder **hoch**. Gib zusätzlich je einen Satz Begründung auf Basis des Bildes und
+            der physiologischen Werte.
+
+            Wichtig:
+            - Falls eine Datenquelle (Bild oder Physiologie) die Einschätzung besonders beeinflusst hat, gib dies am Ende explizit an.
+
+            Beispielhafte Antwortstruktur:
+
+            Stress: mittel – Der Puls ist leicht erhöht, die Mimik angespannt.  
+            Entspannung: niedrig – Körperhaltung wirkt angespannt.  
+            Ablenkung: hoch – Der Blick richtet sich deutlich auf das Infotainmentsystem.  
+            Dominierende Datenquelle: Die Einschätzung basiert hauptsächlich auf der Pulsrate, da diese deutlich erhöht ist.","Stress: niedrig – Der Puls von 77.0 bpm liegt im normalen Bereich und die Gesamtbewegung ist minimal.  
+Entspannung: mittel – Die Körperhaltung ist entspannt mit abgelegtem Arm, aber der Blick ist auf den Bildschirm gerichtet, was auf eine gewisse Aufmerksamkeit hinweist.  
+Ablenkung: hoch – Der Fokus der Person ist auf den Bildschirm gerichtet, was darauf hinweist, dass sie sich mit der Information darauf beschäftigt und nicht auf die Straße achtet.  
+Dominierende Datenquelle: Die Einschätzung basiert hauptsächlich auf dem Bild, da die Blickorientierung auf Ablenkung hinweist."
+100,"Hinweis: Die folgenden Daten stammen aus einem experimentellen Fahrsimulator („Fahrkiste“). Die Versuchsperson sitzt in einem fest installierten Fahrersitz mit Lenkrad und führt simulierte Fahrszenarien durch. Die Kamera zeigt das Gesicht, den Oberkörper und das Blickverhalten der Person. Die Fahrt erfolgt im Modus SAE Level 3 (hochautomatisiert). Die Fahrzeugführung übernimmt das System, die Person darf sich temporär anderen Tätigkeiten widmen, muss jedoch jederzeit übernahmebereit bleiben, da der Mensch weiterhin die übergeordnete Verantwortung trägt.
+
+            Bildzeitpunkt: 2025-05-22 13:09:40
+            Physiologische Werte:
+            - Puls: 77.0 bpm
+            - EDA: 2.26 µS
+            - RMSSD: n/a ms
+            - Bewegung: 0.011 g
+
+            Du erhältst ein Bild und physiologische Daten (Puls, EDA, RMSSD, Bewegung) und sollst den Zustand der Person bewerten – ausschließlich in Bezug auf:
+
+            - Stress
+            - Entspannung
+            - Ablenkung
+
+            Für jede Kategorie gib bitte eine von drei Stufen an: **niedrig**, **mittel** oder **hoch**. Gib zusätzlich je einen Satz Begründung auf Basis des Bildes und
+            der physiologischen Werte.
+
+            Wichtig:
+            - Falls eine Datenquelle (Bild oder Physiologie) die Einschätzung besonders beeinflusst hat, gib dies am Ende explizit an.
+
+            Beispielhafte Antwortstruktur:
+
+            Stress: mittel – Der Puls ist leicht erhöht, die Mimik angespannt.  
+            Entspannung: niedrig – Körperhaltung wirkt angespannt.  
+            Ablenkung: hoch – Der Blick richtet sich deutlich auf das Infotainmentsystem.  
+            Dominierende Datenquelle: Die Einschätzung basiert hauptsächlich auf der Pulsrate, da diese deutlich erhöht ist.","Stress: niedrig – Der Puls von 77 bpm ist relativ normal, und die EDA-Wert (2.26 µS) deutet auf keine außergewöhnliche emotionale Erregung hin.
+
+Entspannung: mittel – Die Körperhaltung mit lockerem Sitz und dem Blick nach vorne wirkt relativ entspannt, jedoch nicht völlig entspannt.
+
+Ablenkung: hoch – Der Blick auf den Bildschirm zeigt eine deutliche Tendenz zur Ablenkung durch mögliche andere Informationsquellen, die nicht direkt mit der Fahrt zusammenhängen.
+
+Dominierende Datenquelle: Die Einschätzung basiert hauptsächlich auf dem Blickverhalten und der Position des Kopfes, welche die Ablenkung offensichtlich machen."
+110,"Hinweis: Die folgenden Daten stammen aus einem experimentellen Fahrsimulator („Fahrkiste“). Die Versuchsperson sitzt in einem fest installierten Fahrersitz mit Lenkrad und führt simulierte Fahrszenarien durch. Die Kamera zeigt das Gesicht, den Oberkörper und das Blickverhalten der Person. Die Fahrt erfolgt im Modus SAE Level 3 (hochautomatisiert). Die Fahrzeugführung übernimmt das System, die Person darf sich temporär anderen Tätigkeiten widmen, muss jedoch jederzeit übernahmebereit bleiben, da der Mensch weiterhin die übergeordnete Verantwortung trägt.
+
+            Bildzeitpunkt: 2025-05-22 13:09:50
+            Physiologische Werte:
+            - Puls: 77.0 bpm
+            - EDA: 2.26 µS
+            - RMSSD: n/a ms
+            - Bewegung: 0.011 g
+
+            Du erhältst ein Bild und physiologische Daten (Puls, EDA, RMSSD, Bewegung) und sollst den Zustand der Person bewerten – ausschließlich in Bezug auf:
+
+            - Stress
+            - Entspannung
+            - Ablenkung
+
+            Für jede Kategorie gib bitte eine von drei Stufen an: **niedrig**, **mittel** oder **hoch**. Gib zusätzlich je einen Satz Begründung auf Basis des Bildes und
+            der physiologischen Werte.
+
+            Wichtig:
+            - Falls eine Datenquelle (Bild oder Physiologie) die Einschätzung besonders beeinflusst hat, gib dies am Ende explizit an.
+
+            Beispielhafte Antwortstruktur:
+
+            Stress: mittel – Der Puls ist leicht erhöht, die Mimik angespannt.  
+            Entspannung: niedrig – Körperhaltung wirkt angespannt.  
+            Ablenkung: hoch – Der Blick richtet sich deutlich auf das Infotainmentsystem.  
+            Dominierende Datenquelle: Die Einschätzung basiert hauptsächlich auf der Pulsrate, da diese deutlich erhöht ist.","Stress: niedrig – Der Puls ist im normalen Bereich und es gibt keine auffälligen physiologischen Stressindikatoren.  
+Entspannung: mittel – Die Körperhaltung ist relativ entspannt, aber die Anwesenheit eines Mantels könnte auf eine gewisse Müdigkeit oder Temperaturregelung hindeuten.  
+Ablenkung: mittel – Die Person scheint sich auf den Bildschirm zu konzentrieren, was auf eine gewisse Ablenkung hindeuten könnte.  
+Dominierende Datenquelle: Die Beurteilung basiert hauptsächlich auf der physiologischen Daten, insbesondere dem normalen Puls und der niedrigen Bewegung."
+120,"Hinweis: Die folgenden Daten stammen aus einem experimentellen Fahrsimulator („Fahrkiste“). Die Versuchsperson sitzt in einem fest installierten Fahrersitz mit Lenkrad und führt simulierte Fahrszenarien durch. Die Kamera zeigt das Gesicht, den Oberkörper und das Blickverhalten der Person. Die Fahrt erfolgt im Modus SAE Level 3 (hochautomatisiert). Die Fahrzeugführung übernimmt das System, die Person darf sich temporär anderen Tätigkeiten widmen, muss jedoch jederzeit übernahmebereit bleiben, da der Mensch weiterhin die übergeordnete Verantwortung trägt.
+
+            Bildzeitpunkt: 2025-05-22 13:10:00
+            Physiologische Werte:
+            - Puls: 79.0 bpm
+            - EDA: 2.15 µS
+            - RMSSD: n/a ms
+            - Bewegung: 0.014 g
+
+            Du erhältst ein Bild und physiologische Daten (Puls, EDA, RMSSD, Bewegung) und sollst den Zustand der Person bewerten – ausschließlich in Bezug auf:
+
+            - Stress
+            - Entspannung
+            - Ablenkung
+
+            Für jede Kategorie gib bitte eine von drei Stufen an: **niedrig**, **mittel** oder **hoch**. Gib zusätzlich je einen Satz Begründung auf Basis des Bildes und
+            der physiologischen Werte.
+
+            Wichtig:
+            - Falls eine Datenquelle (Bild oder Physiologie) die Einschätzung besonders beeinflusst hat, gib dies am Ende explizit an.
+
+            Beispielhafte Antwortstruktur:
+
+            Stress: mittel – Der Puls ist leicht erhöht, die Mimik angespannt.  
+            Entspannung: niedrig – Körperhaltung wirkt angespannt.  
+            Ablenkung: hoch – Der Blick richtet sich deutlich auf das Infotainmentsystem.  
+            Dominierende Datenquelle: Die Einschätzung basiert hauptsächlich auf der Pulsrate, da diese deutlich erhöht ist.","Stress: niedrig – Der Pulswert von 79 bpm liegt im normalen Bereich und die EDA ist relativ niedrig, was auf einen geringen Stresslevel hindeutet.
+
+Entspannung: mittel – Die Haltung ist entspannt mit zurückgelehnten Schultern, was auf eine moderate Entspannung hindeutet.
+
+Ablenkung: hoch – Der Blick ist offensichtlich auf das Infotainmentsystem gerichtet, was eine hohe Ablenkung zeigt.
+
+Dominierende Datenquelle: Die Einschätzung basiert hauptsächlich auf dem Bild, da die visuelle Hinwendung zum Bildschirm viel über die Ablenkung aussagt."
+130,"Hinweis: Die folgenden Daten stammen aus einem experimentellen Fahrsimulator („Fahrkiste“). Die Versuchsperson sitzt in einem fest installierten Fahrersitz mit Lenkrad und führt simulierte Fahrszenarien durch. Die Kamera zeigt das Gesicht, den Oberkörper und das Blickverhalten der Person. Die Fahrt erfolgt im Modus SAE Level 3 (hochautomatisiert). Die Fahrzeugführung übernimmt das System, die Person darf sich temporär anderen Tätigkeiten widmen, muss jedoch jederzeit übernahmebereit bleiben, da der Mensch weiterhin die übergeordnete Verantwortung trägt.
+
+            Bildzeitpunkt: 2025-05-22 13:10:10
+            Physiologische Werte:
+            - Puls: 79.0 bpm
+            - EDA: 2.15 µS
+            - RMSSD: n/a ms
+            - Bewegung: 0.014 g
+
+            Du erhältst ein Bild und physiologische Daten (Puls, EDA, RMSSD, Bewegung) und sollst den Zustand der Person bewerten – ausschließlich in Bezug auf:
+
+            - Stress
+            - Entspannung
+            - Ablenkung
+
+            Für jede Kategorie gib bitte eine von drei Stufen an: **niedrig**, **mittel** oder **hoch**. Gib zusätzlich je einen Satz Begründung auf Basis des Bildes und
+            der physiologischen Werte.
+
+            Wichtig:
+            - Falls eine Datenquelle (Bild oder Physiologie) die Einschätzung besonders beeinflusst hat, gib dies am Ende explizit an.
+
+            Beispielhafte Antwortstruktur:
+
+            Stress: mittel – Der Puls ist leicht erhöht, die Mimik angespannt.  
+            Entspannung: niedrig – Körperhaltung wirkt angespannt.  
+            Ablenkung: hoch – Der Blick richtet sich deutlich auf das Infotainmentsystem.  
+            Dominierende Datenquelle: Die Einschätzung basiert hauptsächlich auf der Pulsrate, da diese deutlich erhöht ist.","Stress: niedrig – Der Puls liegt im normalen Bereich, und die EDA ist mäßig und weist nicht auf erhöhten Stress hin.
+
+Entspannung: mittel – Die Körperhaltung ist relativ entspannt, obwohl die Arme auf dem Lenkrad liegen, möglicherweise aus Gewohnheit oder Bereitschaft zur Systemübernahme.
+
+Ablenkung: hoch – Die Person schaut in Richtung des Bildschirms des Infotainmentsystems.
+
+Dominierende Datenquelle: Die Einschätzung basiert hauptsächlich auf dem Blickverhalten der Person in Richtung des Infotainmentsystems, was die Ablenkung deutlich beeinflusst."
+140,"Hinweis: Die folgenden Daten stammen aus einem experimentellen Fahrsimulator („Fahrkiste“). Die Versuchsperson sitzt in einem fest installierten Fahrersitz mit Lenkrad und führt simulierte Fahrszenarien durch. Die Kamera zeigt das Gesicht, den Oberkörper und das Blickverhalten der Person. Die Fahrt erfolgt im Modus SAE Level 3 (hochautomatisiert). Die Fahrzeugführung übernimmt das System, die Person darf sich temporär anderen Tätigkeiten widmen, muss jedoch jederzeit übernahmebereit bleiben, da der Mensch weiterhin die übergeordnete Verantwortung trägt.
+
+            Bildzeitpunkt: 2025-05-22 13:10:20
+            Physiologische Werte:
+            - Puls: 79.0 bpm
+            - EDA: 2.15 µS
+            - RMSSD: n/a ms
+            - Bewegung: 0.014 g
+
+            Du erhältst ein Bild und physiologische Daten (Puls, EDA, RMSSD, Bewegung) und sollst den Zustand der Person bewerten – ausschließlich in Bezug auf:
+
+            - Stress
+            - Entspannung
+            - Ablenkung
+
+            Für jede Kategorie gib bitte eine von drei Stufen an: **niedrig**, **mittel** oder **hoch**. Gib zusätzlich je einen Satz Begründung auf Basis des Bildes und
+            der physiologischen Werte.
+
+            Wichtig:
+            - Falls eine Datenquelle (Bild oder Physiologie) die Einschätzung besonders beeinflusst hat, gib dies am Ende explizit an.
+
+            Beispielhafte Antwortstruktur:
+
+            Stress: mittel – Der Puls ist leicht erhöht, die Mimik angespannt.  
+            Entspannung: niedrig – Körperhaltung wirkt angespannt.  
+            Ablenkung: hoch – Der Blick richtet sich deutlich auf das Infotainmentsystem.  
+            Dominierende Datenquelle: Die Einschätzung basiert hauptsächlich auf der Pulsrate, da diese deutlich erhöht ist.","Stress: niedrig – Der Puls von 79 bpm liegt im normalen Bereich, und es gibt keine Hinweise auf erhöhte physische Aktivität oder Anspannung.  
+Entspannung: mittel – Die Körperhaltung ist relativ entspannt, mit einer lockeren Haltung im Sitz.  
+Ablenkung: hoch – Die Person scheint sich mit dem Infotainmentsystem zu beschäftigen, was darauf hinweist, dass sie ihrer Umgebung momentan wenig Aufmerksamkeit schenkt.  
+Dominierende Datenquelle: Die Einschätzung zu Ablenkung basiert hauptsächlich auf der visuellen Beobachtung, dass der Blick auf das Display gerichtet ist."
+150,"Hinweis: Die folgenden Daten stammen aus einem experimentellen Fahrsimulator („Fahrkiste“). Die Versuchsperson sitzt in einem fest installierten Fahrersitz mit Lenkrad und führt simulierte Fahrszenarien durch. Die Kamera zeigt das Gesicht, den Oberkörper und das Blickverhalten der Person. Die Fahrt erfolgt im Modus SAE Level 3 (hochautomatisiert). Die Fahrzeugführung übernimmt das System, die Person darf sich temporär anderen Tätigkeiten widmen, muss jedoch jederzeit übernahmebereit bleiben, da der Mensch weiterhin die übergeordnete Verantwortung trägt.
+
+            Bildzeitpunkt: 2025-05-22 13:10:30
+            Physiologische Werte:
+            - Puls: 79.0 bpm
+            - EDA: 2.15 µS
+            - RMSSD: n/a ms
+            - Bewegung: 0.014 g
+
+            Du erhältst ein Bild und physiologische Daten (Puls, EDA, RMSSD, Bewegung) und sollst den Zustand der Person bewerten – ausschließlich in Bezug auf:
+
+            - Stress
+            - Entspannung
+            - Ablenkung
+
+            Für jede Kategorie gib bitte eine von drei Stufen an: **niedrig**, **mittel** oder **hoch**. Gib zusätzlich je einen Satz Begründung auf Basis des Bildes und
+            der physiologischen Werte.
+
+            Wichtig:
+            - Falls eine Datenquelle (Bild oder Physiologie) die Einschätzung besonders beeinflusst hat, gib dies am Ende explizit an.
+
+            Beispielhafte Antwortstruktur:
+
+            Stress: mittel – Der Puls ist leicht erhöht, die Mimik angespannt.  
+            Entspannung: niedrig – Körperhaltung wirkt angespannt.  
+            Ablenkung: hoch – Der Blick richtet sich deutlich auf das Infotainmentsystem.  
+            Dominierende Datenquelle: Die Einschätzung basiert hauptsächlich auf der Pulsrate, da diese deutlich erhöht ist.","Stress: niedrig – Der Puls von 79 bpm liegt im normalen Bereich, und die Körperhaltung wirkt entspannt.  
+Entspannung: mittel – Die Körperhaltung ist locker, und die puls zeigt keine Anzeichen von Stress.  
+Ablenkung: hoch – Der Blick scheint auf den Bildschirm an der Seite gerichtet zu sein, was auf eine Ablenkung durch externe Informationen hinweist.  
+Dominierende Datenquelle: Die Einschätzung basiert hauptsächlich auf der visuellen Beobachtung der Blickrichtung, die deutlich auf eine Ablenkung hindeutet."
+160,"Hinweis: Die folgenden Daten stammen aus einem experimentellen Fahrsimulator („Fahrkiste“). Die Versuchsperson sitzt in einem fest installierten Fahrersitz mit Lenkrad und führt simulierte Fahrszenarien durch. Die Kamera zeigt das Gesicht, den Oberkörper und das Blickverhalten der Person. Die Fahrt erfolgt im Modus SAE Level 3 (hochautomatisiert). Die Fahrzeugführung übernimmt das System, die Person darf sich temporär anderen Tätigkeiten widmen, muss jedoch jederzeit übernahmebereit bleiben, da der Mensch weiterhin die übergeordnete Verantwortung trägt.
+
+            Bildzeitpunkt: 2025-05-22 13:10:40
+            Physiologische Werte:
+            - Puls: 79.0 bpm
+            - EDA: 2.15 µS
+            - RMSSD: n/a ms
+            - Bewegung: 0.014 g
+
+            Du erhältst ein Bild und physiologische Daten (Puls, EDA, RMSSD, Bewegung) und sollst den Zustand der Person bewerten – ausschließlich in Bezug auf:
+
+            - Stress
+            - Entspannung
+            - Ablenkung
+
+            Für jede Kategorie gib bitte eine von drei Stufen an: **niedrig**, **mittel** oder **hoch**. Gib zusätzlich je einen Satz Begründung auf Basis des Bildes und
+            der physiologischen Werte.
+
+            Wichtig:
+            - Falls eine Datenquelle (Bild oder Physiologie) die Einschätzung besonders beeinflusst hat, gib dies am Ende explizit an.
+
+            Beispielhafte Antwortstruktur:
+
+            Stress: mittel – Der Puls ist leicht erhöht, die Mimik angespannt.  
+            Entspannung: niedrig – Körperhaltung wirkt angespannt.  
+            Ablenkung: hoch – Der Blick richtet sich deutlich auf das Infotainmentsystem.  
+            Dominierende Datenquelle: Die Einschätzung basiert hauptsächlich auf der Pulsrate, da diese deutlich erhöht ist.","Stress: niedrig – Der Puls liegt im normalen Bereich und die Körperhaltung wirkt entspannt.  
+Entspannung: mittel – Die Person sitzt zurückgelehnt, was auf eine gewisse entspannte Haltung hindeutet.  
+Ablenkung: hoch – Der Blick ist eindeutig auf den Bildschirm gerichtet, was auf aktive Beschäftigung mit einer anderen Tätigkeit hinweist.  
+Dominierende Datenquelle: Die Einschätzung basiert hauptsächlich auf der Körperhaltung und Blickrichtung, die auf eine aktive Interaktion mit dem Bildschirm hinweisen."
+170,"Hinweis: Die folgenden Daten stammen aus einem experimentellen Fahrsimulator („Fahrkiste“). Die Versuchsperson sitzt in einem fest installierten Fahrersitz mit Lenkrad und führt simulierte Fahrszenarien durch. Die Kamera zeigt das Gesicht, den Oberkörper und das Blickverhalten der Person. Die Fahrt erfolgt im Modus SAE Level 3 (hochautomatisiert). Die Fahrzeugführung übernimmt das System, die Person darf sich temporär anderen Tätigkeiten widmen, muss jedoch jederzeit übernahmebereit bleiben, da der Mensch weiterhin die übergeordnete Verantwortung trägt.
+
+            Bildzeitpunkt: 2025-05-22 13:10:50
+            Physiologische Werte:
+            - Puls: 79.0 bpm
+            - EDA: 2.15 µS
+            - RMSSD: n/a ms
+            - Bewegung: 0.014 g
+
+            Du erhältst ein Bild und physiologische Daten (Puls, EDA, RMSSD, Bewegung) und sollst den Zustand der Person bewerten – ausschließlich in Bezug auf:
+
+            - Stress
+            - Entspannung
+            - Ablenkung
+
+            Für jede Kategorie gib bitte eine von drei Stufen an: **niedrig**, **mittel** oder **hoch**. Gib zusätzlich je einen Satz Begründung auf Basis des Bildes und
+            der physiologischen Werte.
+
+            Wichtig:
+            - Falls eine Datenquelle (Bild oder Physiologie) die Einschätzung besonders beeinflusst hat, gib dies am Ende explizit an.
+
+            Beispielhafte Antwortstruktur:
+
+            Stress: mittel – Der Puls ist leicht erhöht, die Mimik angespannt.  
+            Entspannung: niedrig – Körperhaltung wirkt angespannt.  
+            Ablenkung: hoch – Der Blick richtet sich deutlich auf das Infotainmentsystem.  
+            Dominierende Datenquelle: Die Einschätzung basiert hauptsächlich auf der Pulsrate, da diese deutlich erhöht ist.","Stress: niedrig – Der Pulswert von 79 bpm ist im normalen Bereich und die Person sitzt entspannt im Sitz.  
+Entspannung: mittel – Die Person wirkt relativ entspannt, was durch die lockere Körperhaltung unterstrichen wird.  
+Ablenkung: hoch – Der Blick ist offensichtlich auf den Bildschirm gerichtet, was auf eine hohe Ablenkung hinweist.  
+Dominierende Datenquelle: Die Einschätzung basiert hauptsächlich auf dem Bild, da die Blickrichtung auf den Bildschirm die Ablenkung stark beeinflusst."
+GESAMT,"Die folgenden Einschätzungen stammen aus einem experimentellen Fahrsimulator („Fahrkiste“)...
+00:00:00: Stress: niedrig – Der Puls von 74 bpm und der geringe Bewegungswert deuten darauf hin, dass die Person relativ entspannt ist.
+Entspannung: mittel – Die körperliche Haltung wirkt relativ locker, was auf eine gewisse Entspannung hindeutet.
+Ablenkung: niedrig – Der Blick ist auf den Bildschirm gerichtet, was darauf hinweist, dass die Person auf ihr Umfeld achtet und bereit ist, sich mit der Fahraufgabe zu befassen.
+Dominierende Datenquelle: Die Einschätzung basiert hauptsächlich auf den physiologischen Werten, die auf ein niedriges Stressniveau hinweisen.
+00:00:10: Stress: niedrig – Der Puls von 74.0 bpm liegt im normalen Bereich und die elektrische Hautaktivität (EDA) von 1.69 µS deutet auf ein geringes Stressniveau hin.  
+
+Entspannung: mittel – Der Körper wirkt relativ entspannt, aber die Haltung zeigt, dass sie aufmerksam ist und jederzeit übernehmen kann.  
+
+Ablenkung: hoch – Der Blick scheint auf den Bildschirm gerichtet zu sein, was auf eine starke Ablenkung von der Fahrsituation hindeutet.  
+
+Dominierende Datenquelle: Die Einschätzung basiert hauptsächlich auf der Analyse des Bildes, insbesondere die Blickrichtung.
+00:00:20: Stress: niedrig – Der Puls von 74 bpm und der niedrige EDA-Wert von 1.69 µS deuten darauf hin, dass die physiologische Anspannung minimal ist.
+
+Entspannung: mittel – Die Körperhaltung wirkt relativ entspannt, aber nicht völlig entspannt; darauf weist auch die moderate Bewegung von 0.003 g hin.
+
+Ablenkung: mittel – Die Person scheint sich auf den Monitor zu konzentrieren, was auf eine gewisse Ablenkung hindeuten könnte.
+
+Dominierende Datenquelle: Die Einschätzung basiert hauptsächlich auf den physiologischen Werten, die auf einen niedrigen Stresspegel hindeuten.
+00:00:30: Stress: niedrig – Der Puls von 74.0 bpm liegt im normalen Bereich und die Körperhaltung wirkt entspannt.  
+Entspannung: mittel – Der Körper wirkt relativ entspannt und unangespannt.  
+Ablenkung: hoch – Die Person schaut direkt auf das Display eines Infotainmentsystems, was auf Ablenkung hinweist.  
+Dominierende Datenquelle: Die Einschätzung basiert hauptsächlich auf dem Bild, da es deutlich das Blickverhalten auf das Display zeigt.
+00:00:40: Stress: niedrig – Der Puls von 74 bpm liegt im normalen Bereich und die Körperhaltung auf dem Bild wirkt entspannt.  
+Entspannung: mittel – Die Person zeigt eine lockere Körperhaltung, was auf eine gewisse Entspannung hindeutet, jedoch nicht vollständig entspannt.  
+Ablenkung: hoch – Der Blick und die Körperausrichtung sind deutlich in Richtung des Bildschirms gerichtet, was auf eine starke Ablenkung hindeutet.  
+Dominierende Datenquelle: Die Einschätzung basiert hauptsächlich auf der visuellen Beobachtung der Körperhaltung und Blickrichtung, die auf Ablenkung hinweist.
+00:00:50: Stress: niedrig – Der Puls von 74 bpm ist im normalen Bereich, und die EDA ist ebenfalls relativ niedrig, was auf einen entspannten Zustand hinweist.  
+Entspannung: mittel – Die Person sitzt entspannt zurückgelehnt, was eine mittlere Entspannung suggeriert, allerdings ist die vollständige Entspannung nicht offensichtlich.  
+Ablenkung: niedrig – Der Blick scheint auf den Bildschirm gerichtet, was auf Aufmerksamkeit gegenüber der bevorstehenden Fahrzeugübernahme hinweist.  
+Dominierende Datenquelle: Die Einschätzung basiert hauptsächlich auf den physiologischen Werten, insbesondere dem normalen Puls und der niedrigen EDA.
+00:01:00: Stress: niedrig – Der Puls liegt im normalen Bereich, und die Person zeigt keine Anzeichen einer angespannten Körperhaltung. 
+Entspannung: mittel – Das lockere Sitzen und Anlehnen deutet darauf hin, dass die Person einigermaßen entspannt ist, obwohl die Arme auf dem Simulator positioniert bleiben. 
+Ablenkung: niedrig – Der Blick ist nicht auf ein externes Gerät gerichtet, sondern eher geradeaus, was auf eine geringe Ablenkung hinweist. 
+Dominierende Datenquelle: Die Einschätzung basiert hauptsächlich auf der physiologischen Daten, insbesondere dem Puls, da dieser normal ist und auf einen niedrigen Stresslevel hinweist.
+00:01:10: Stress: niedrig – Der Puls ist im normalen Bereich und die Person zeigt eine entspannte Körperhaltung.  
+Entspannung: hoch – Die Person sitzt zurückgelehnt, was auf Entspannung hindeutet, und der Puls ist ebenfalls normal.  
+Ablenkung: mittel – Die Person scheint aufmerksam auf das System vor ihr zu blicken, könnte aber leicht abgelenkt sein.  
+Dominierende Datenquelle: Die Einschätzung basiert hauptsächlich auf der Körperhaltung und der normalen Pulsrate, die zusammen Entspannung nahelegen.
+00:01:20: Stress: niedrig – Der puls liegt im normalen Bereich und es gibt keine offensichtlichen Anzeichen von Stress in den physiologischen Daten oder der Körperhaltung.  
+Entspannung: mittel – Die Körperhaltung wirkt grundsätzlich entspannt, was auf eine moderate Entspannung hinweist, auch wenn die Person aufrecht sitzt und aufmerksam auf das Display schaut.  
+Ablenkung: hoch – Die Person scheint ihren Blick auf den Bildschirm zu richten und könnte durch die Informationen darauf abgelenkt sein.  
+Dominierende Datenquelle: Die Einschätzung basiert hauptsächlich auf der Beobachtung der Körperhaltung und der Blickrichtung.
+00:01:30: Stress: niedrig – Der Puls von 77.0 bpm liegt im normalen Bereich und die Gesamtbewegung ist minimal.  
+Entspannung: mittel – Die Körperhaltung ist entspannt mit abgelegtem Arm, aber der Blick ist auf den Bildschirm gerichtet, was auf eine gewisse Aufmerksamkeit hinweist.  
+Ablenkung: hoch – Der Fokus der Person ist auf den Bildschirm gerichtet, was darauf hinweist, dass sie sich mit der Information darauf beschäftigt und nicht auf die Straße achtet.  
+Dominierende Datenquelle: Die Einschätzung basiert hauptsächlich auf dem Bild, da die Blickorientierung auf Ablenkung hinweist.
+00:01:40: Stress: niedrig – Der Puls von 77 bpm ist relativ normal, und die EDA-Wert (2.26 µS) deutet auf keine außergewöhnliche emotionale Erregung hin.
+
+Entspannung: mittel – Die Körperhaltung mit lockerem Sitz und dem Blick nach vorne wirkt relativ entspannt, jedoch nicht völlig entspannt.
+
+Ablenkung: hoch – Der Blick auf den Bildschirm zeigt eine deutliche Tendenz zur Ablenkung durch mögliche andere Informationsquellen, die nicht direkt mit der Fahrt zusammenhängen.
+
+Dominierende Datenquelle: Die Einschätzung basiert hauptsächlich auf dem Blickverhalten und der Position des Kopfes, welche die Ablenkung offensichtlich machen.
+00:01:50: Stress: niedrig – Der Puls ist im normalen Bereich und es gibt keine auffälligen physiologischen Stressindikatoren.  
+Entspannung: mittel – Die Körperhaltung ist relativ entspannt, aber die Anwesenheit eines Mantels könnte auf eine gewisse Müdigkeit oder Temperaturregelung hindeuten.  
+Ablenkung: mittel – Die Person scheint sich auf den Bildschirm zu konzentrieren, was auf eine gewisse Ablenkung hindeuten könnte.  
+Dominierende Datenquelle: Die Beurteilung basiert hauptsächlich auf der physiologischen Daten, insbesondere dem normalen Puls und der niedrigen Bewegung.
+00:02:00: Stress: niedrig – Der Pulswert von 79 bpm liegt im normalen Bereich und die EDA ist relativ niedrig, was auf einen geringen Stresslevel hindeutet.
+
+Entspannung: mittel – Die Haltung ist entspannt mit zurückgelehnten Schultern, was auf eine moderate Entspannung hindeutet.
+
+Ablenkung: hoch – Der Blick ist offensichtlich auf das Infotainmentsystem gerichtet, was eine hohe Ablenkung zeigt.
+
+Dominierende Datenquelle: Die Einschätzung basiert hauptsächlich auf dem Bild, da die visuelle Hinwendung zum Bildschirm viel über die Ablenkung aussagt.
+00:02:10: Stress: niedrig – Der Puls liegt im normalen Bereich, und die EDA ist mäßig und weist nicht auf erhöhten Stress hin.
+
+Entspannung: mittel – Die Körperhaltung ist relativ entspannt, obwohl die Arme auf dem Lenkrad liegen, möglicherweise aus Gewohnheit oder Bereitschaft zur Systemübernahme.
+
+Ablenkung: hoch – Die Person schaut in Richtung des Bildschirms des Infotainmentsystems.
+
+Dominierende Datenquelle: Die Einschätzung basiert hauptsächlich auf dem Blickverhalten der Person in Richtung des Infotainmentsystems, was die Ablenkung deutlich beeinflusst.
+00:02:20: Stress: niedrig – Der Puls von 79 bpm liegt im normalen Bereich, und es gibt keine Hinweise auf erhöhte physische Aktivität oder Anspannung.  
+Entspannung: mittel – Die Körperhaltung ist relativ entspannt, mit einer lockeren Haltung im Sitz.  
+Ablenkung: hoch – Die Person scheint sich mit dem Infotainmentsystem zu beschäftigen, was darauf hinweist, dass sie ihrer Umgebung momentan wenig Aufmerksamkeit schenkt.  
+Dominierende Datenquelle: Die Einschätzung zu Ablenkung basiert hauptsächlich auf der visuellen Beobachtung, dass der Blick auf das Display gerichtet ist.
+00:02:30: Stress: niedrig – Der Puls von 79 bpm liegt im normalen Bereich, und die Körperhaltung wirkt entspannt.  
+Entspannung: mittel – Die Körperhaltung ist locker, und die puls zeigt keine Anzeichen von Stress.  
+Ablenkung: hoch – Der Blick scheint auf den Bildschirm an der Seite gerichtet zu sein, was auf eine Ablenkung durch externe Informationen hinweist.  
+Dominierende Datenquelle: Die Einschätzung basiert hauptsächlich auf der visuellen Beobachtung der Blickrichtung, die deutlich auf eine Ablenkung hindeutet.
+00:02:40: Stress: niedrig – Der Puls liegt im normalen Bereich und die Körperhaltung wirkt entspannt.  
+Entspannung: mittel – Die Person sitzt zurückgelehnt, was auf eine gewisse entspannte Haltung hindeutet.  
+Ablenkung: hoch – Der Blick ist eindeutig auf den Bildschirm gerichtet, was auf aktive Beschäftigung mit einer anderen Tätigkeit hinweist.  
+Dominierende Datenquelle: Die Einschätzung basiert hauptsächlich auf der Körperhaltung und Blickrichtung, die auf eine aktive Interaktion mit dem Bildschirm hinweisen.
+00:02:50: Stress: niedrig – Der Pulswert von 79 bpm ist im normalen Bereich und die Person sitzt entspannt im Sitz.  
+Entspannung: mittel – Die Person wirkt relativ entspannt, was durch die lockere Körperhaltung unterstrichen wird.  
+Ablenkung: hoch – Der Blick ist offensichtlich auf den Bildschirm gerichtet, was auf eine hohe Ablenkung hinweist.  
+Dominierende Datenquelle: Die Einschätzung basiert hauptsächlich auf dem Bild, da die Blickrichtung auf den Bildschirm die Ablenkung stark beeinflusst.
+
+    Bitte fasse den Gesamtzustand der Person über das gesamte Szenario hinweg zusammen.
+
+    Gehe dabei strukturiert auf jede der drei Kategorien ein:
+    - Gib für jede Kategorie eine Einschätzung: **niedrig**, **mittel** oder **hoch**
+    - Begründe die Einschätzung jeweils mit einem kurzen Satz basierend auf typischen Mustern aus den Einzelbewertungen
+
+    Verwende diese Antwortstruktur:
+
+    Stress: [niedrig/mittel/hoch] – z.​B. „Die meisten Bewertungen zeigten eine erhöhte Pulsrate und angespannte Mimik.“  
+    Entspannung: [niedrig/mittel/hoch] – z.​B. „Die Körperhaltung wirkte überwiegend angespannt.“  
+    Ablenkung: [niedrig/mittel/hoch] – z.​B. „In mehreren Momenten war der Blick nicht auf den Fahrkontext gerichtet.“
+
+    Formuliere zum Abschluss **einen Satz**, der den erkannten Gesamtkontext des Fahrers beschreibt.","Stress: **niedrig** – Die meisten Bewertungen zeigten einen normalen Puls und keine physiologischen Anzeichen von Stress.  
+Entspannung: **mittel** – Die Körperhaltung wirkte konstant relativ entspannt, ohne vollständig entspannt zu sein.  
+Ablenkung: **hoch** – In mehreren Momenten war der Blick konstant auf externe Bildschirme gerichtet, was auf hohe Ablenkung hinweist.  
+
+Der Fahrer befindet sich in einem entspannten, aber stark abgelenkten Zustand, wobei keine Anzeichen von physiologischem Stress erkennbar sind."

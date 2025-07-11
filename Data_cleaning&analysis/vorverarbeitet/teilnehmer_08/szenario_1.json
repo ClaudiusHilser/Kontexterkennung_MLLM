@@ -1,0 +1,81 @@
+{
+  "teilnehmer": "teilnehmer_08",
+  "szenario": "szenario_1",
+  "start": "2025-05-22 13:08:00",
+  "end": "2025-05-22 13:11:00",
+  "pulse_rate": [
+    {
+      "timestamp_iso": "2025-05-22 13:08:00",
+      "pulse_rate_bpm": 74.0
+    },
+    {
+      "timestamp_iso": "2025-05-22 13:09:00",
+      "pulse_rate_bpm": 77.0
+    },
+    {
+      "timestamp_iso": "2025-05-22 13:10:00",
+      "pulse_rate_bpm": 79.0
+    },
+    {
+      "timestamp_iso": "2025-05-22 13:11:00",
+      "pulse_rate_bpm": 80.0
+    }
+  ],
+  "eda": [
+    {
+      "timestamp_iso": "2025-05-22 13:08:00",
+      "eda_scl_usiemens": 1.69
+    },
+    {
+      "timestamp_iso": "2025-05-22 13:09:00",
+      "eda_scl_usiemens": 2.26
+    },
+    {
+      "timestamp_iso": "2025-05-22 13:10:00",
+      "eda_scl_usiemens": 2.15
+    },
+    {
+      "timestamp_iso": "2025-05-22 13:11:00",
+      "eda_scl_usiemens": 1.72
+    }
+  ],
+  "prv_rmssd_ms": [],
+  "accelerometer_std_g": [
+    {
+      "timestamp_iso": "2025-05-22 13:08:00",
+      "accelerometers_std_g": 0.003
+    },
+    {
+      "timestamp_iso": "2025-05-22 13:09:00",
+      "accelerometers_std_g": 0.011
+    },
+    {
+      "timestamp_iso": "2025-05-22 13:10:00",
+      "accelerometers_std_g": 0.014
+    },
+    {
+      "timestamp_iso": "2025-05-22 13:11:00",
+      "accelerometers_std_g": 0.007
+    }
+  ],
+  "screenshots": [
+    "teilnehmer_08/szenario_1/screenshots/teilnehmer_08_szenario_1_0001.jpg",
+    "teilnehmer_08/szenario_1/screenshots/teilnehmer_08_szenario_1_0002.jpg",
+    "teilnehmer_08/szenario_1/screenshots/teilnehmer_08_szenario_1_0003.jpg",
+    "teilnehmer_08/szenario_1/screenshots/teilnehmer_08_szenario_1_0004.jpg",
+    "teilnehmer_08/szenario_1/screenshots/teilnehmer_08_szenario_1_0005.jpg",
+    "teilnehmer_08/szenario_1/screenshots/teilnehmer_08_szenario_1_0006.jpg",
+    "teilnehmer_08/szenario_1/screenshots/teilnehmer_08_szenario_1_0007.jpg",
+    "teilnehmer_08/szenario_1/screenshots/teilnehmer_08_szenario_1_0008.jpg",
+    "teilnehmer_08/szenario_1/screenshots/teilnehmer_08_szenario_1_0009.jpg",
+    "teilnehmer_08/szenario_1/screenshots/teilnehmer_08_szenario_1_0010.jpg",
+    "teilnehmer_08/szenario_1/screenshots/teilnehmer_08_szenario_1_0011.jpg",
+    "teilnehmer_08/szenario_1/screenshots/teilnehmer_08_szenario_1_0012.jpg",
+    "teilnehmer_08/szenario_1/screenshots/teilnehmer_08_szenario_1_0013.jpg",
+    "teilnehmer_08/szenario_1/screenshots/teilnehmer_08_szenario_1_0014.jpg",
+    "teilnehmer_08/szenario_1/screenshots/teilnehmer_08_szenario_1_0015.jpg",
+    "teilnehmer_08/szenario_1/screenshots/teilnehmer_08_szenario_1_0016.jpg",
+    "teilnehmer_08/szenario_1/screenshots/teilnehmer_08_szenario_1_0017.jpg",
+    "teilnehmer_08/szenario_1/screenshots/teilnehmer_08_szenario_1_0018.jpg"
+  ]
+}

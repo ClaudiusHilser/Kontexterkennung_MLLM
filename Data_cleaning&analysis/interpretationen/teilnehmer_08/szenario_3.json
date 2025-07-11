@@ -1,0 +1,66 @@
+[
+  {
+    "zeitpunkt": "00:00:00",
+    "text": "Stress: mittel – Der Puls von 81 bpm liegt im normalen Bereich, aber die EDA von 1.72 µS kann auf eine moderate Aktivierung des sympathischen Nervensystems hindeuten, was auf mittleren Stress hinweist.\n\nEntspannung: niedrig – Die Körperhaltung zeigt keine deutlichen Anzeichen von Entspannung, und die grip am Lenkrad deutet darauf hin, dass die Person bereit ist, das Fahrzeug manuell zu übernehmen.\n\nAblenkung: hoch – Die Person blickt auf einen Monitor, was darauf hinweist, dass sie nicht vollständig auf die Fahrsituation fokussiert ist.\n\nDominierende Datenquelle: Die Einschätzung basiert hauptsächlich auf den visuellen Daten, da die Blickrichtung auf den Monitor deutliche Hinweise auf Ablenkung liefert."
+  },
+  {
+    "zeitpunkt": "00:00:10",
+    "text": "Stress: niedrig – Der Puls von 81 bpm ist im normalen Bereich und die Haltung wirkt entspannt.  \nEntspannung: mittel – Die Körperhaltung ist relativ locker, was auf eine moderate Entspannung hindeutet.  \nAblenkung: niedrig – Der Blick scheint fokussiert auf das Armaturenbrett oder die Umgebung gerichtet zu sein, nicht auf ein Zweitgerät.  \nDominierende Datenquelle: Die Einschätzung basiert hauptsächlich auf der Körperhaltung und dem Puls, die beide auf eine moderate Entspannung und niedrigen Stress deuten."
+  },
+  {
+    "zeitpunkt": "00:00:20",
+    "text": "Stress: niedrig – Der Puls von 81 bpm ist im normalen Bereich und das EDA von 1.72 µS deutet auf geringe physiologische Erregung hin.\n\nEntspannung: mittel – Die Körperhaltung wirkt relativ entspannt, aber durch die Übernahme des Fahrzeugs könnte eine gewisse Anspannung vorhanden sein.\n\nAblenkung: niedrig – Es gibt keine auffällige Abwendung der Augen von der Fahrumgebung, was auf geringe Ablenkung hinweist.\n\nDominierende Datenquelle: Die Einschätzung basiert hauptsächlich auf den physiologischen Werten, insbesondere dem Puls und EDA, die auf einen normalen Erregungszustand hinweisen."
+  },
+  {
+    "zeitpunkt": "00:00:30",
+    "text": "Stress: niedrig – Der Puls liegt im normalen Bereich und die EDA ist moderat, was auf einen geringen Stresslevel hinweist.  \nEntspannung: mittel – Die Körperhaltung wirkt relativ entspannt, obwohl die Arme am Lenkrad sind.  \nAblenkung: niedrig – Der Blick scheint auf das zentrale Display gerichtet zu sein, was auf eine Konzentration auf die Fahraufgabe hindeutet.  \nDominierende Datenquelle: Die Einschätzung basiert hauptsächlich auf den physiologischen Daten, da sie keine starken Hinweise auf Stress oder Ablenkung zeigen."
+  },
+  {
+    "zeitpunkt": "00:00:40",
+    "text": "Stress: niedrig – Der Puls von 81 bpm und der geringe Bewegungswert von 0.012 g deuten auf einen entspannten Zustand hin.  \n\nEntspannung: mittel – Die Körperhaltung wirkt relativ entspannt, obwohl ein gewisser Grad an Aufmerksamkeit durch das Sitzen am Lenkrad notwendig ist.  \n\nAblenkung: niedrig – Die Aufmerksamkeit scheint auf die Fahrzeugführung gerichtet zu sein, ohne signifikante Ablenkung durch externe Reize.  \n\nDominierende Datenquelle: Die physiologischen Daten, insbesondere der Puls, beeinflussen die Einschätzung, da sie auf einen entspannten Zustand hinweisen."
+  },
+  {
+    "zeitpunkt": "00:00:50",
+    "text": "Stress: niedrig – Der Puls von 81 bpm ist im normalen Bereich und die allgemeine Körperhaltung wirkt relativ entspannt. \n\nEntspannung: mittel – Die Person hält das Lenkrad fest, was eine gewisse Bereitschaft zur Fahrzeugübernahme zeigt, aber ihre Körperposition wirkt eher locker.\n\nAblenkung: mittel – Die Aufmerksamkeit ist auf den Bildschirm des Infotainmentsystems gerichtet, aber ohne deutliche Anzeichen von intensiver Interaktion.\n\nDominierende Datenquelle: Die Einschätzung basiert hauptsächlich auf der Körperhaltung und der Blickrichtung, die die aktuelle Aktivität und Aufmerksamkeit der Person widerspiegeln."
+  },
+  {
+    "zeitpunkt": "00:01:00",
+    "text": "Stress: niedrig – Der Puls ist moderat und die Körperhaltung wirkt entspannt.  \nEntspannung: mittel – Die Person sitzt ruhig, was für eine moderate Entspannung spricht.  \nAblenkung: niedrig – Die Person schaut direkt auf die Bildschirme und scheint sich auf die Fahrzeugübernahme zu konzentrieren.  \nDominierende Datenquelle: Die Einschätzung basiert hauptsächlich auf der Körperhaltung und der moderaten Pulsrate."
+  },
+  {
+    "zeitpunkt": "00:01:10",
+    "text": "Stress: niedrig – Der Puls liegt mit 81 bpm im normalen Bereich, die Körperhaltung ist locker und entspannt, was auf geringen Stress hindeutet.  \nEntspannung: mittel – Die Person wirkt insgesamt entspannt, aber die leichte Anspannung der Hände am Lenkrad deutet darauf hin, dass sie sich auf die bevorstehende Fahrzeugübernahme vorbereitet.  \nAblenkung: niedrig – Die Person ist fokussiert auf die Fahrsituation, ohne Anzeichen einer Ablenkung durch andere Elemente.  \nDominierende Datenquelle: Die Einschätzung basiert hauptsächlich auf der Körperhaltung, da diese klar erkennbar entspannt ist."
+  },
+  {
+    "zeitpunkt": "00:01:20",
+    "text": "Stress: niedrig – Der Puls von 81 bpm liegt im normalen Bereich und weist nicht auf erhöhten Stress hin.\n\nEntspannung: mittel – Die aufrechte Körperhaltung und das ruhige Halten des Lenkrads deuten auf einen moderaten Entspannungszustand hin.\n\nAblenkung: niedrig – Der Blick ist auf die Straße gerichtet und es gibt keine eindeutigen Anzeichen von Ablenkung durch andere Tätigkeiten.\n\nDominierende Datenquelle: Die Einschätzung basiert hauptsächlich auf den physiologischen Werten, insbesondere dem normalen Puls und der minimalen Bewegung."
+  },
+  {
+    "zeitpunkt": "00:01:30",
+    "text": "Stress: niedrig – Der Pulswert von 81 bpm ist im normalen Bereich, die Körperhaltung wirkt entspannt.  \nEntspannung: mittel – Der Oberkörper ist locker angelehnt, was auf eine moderate Entspannung hindeutet.  \nAblenkung: mittel – Die Person schaut nicht intensiv auf das Infotainmentsystem, es könnte jedoch leichten Einfluss auf ihre Aufmerksamkeit haben.  \nDominierende Datenquelle: Die Einschätzung basiert hauptsächlich auf der Körperhaltung, da sie entspannt wirkt."
+  },
+  {
+    "zeitpunkt": "00:01:40",
+    "text": "Stress: niedrig – Der Puls liegt mit 81 bpm im normalen Bereich, und die Körperhaltung wirkt entspannt.  \nEntspannung: mittel – Die Person sitzt locker im Fahrersitz, jedoch zeigt die leichte Aktivität im EDA von 1.4 µS, dass nicht vollständige Entspannung vorliegt.  \nAblenkung: niedrig – Die Person scheint dem Fahrsimulator konzentriert zugewandt zu sein, ohne Anzeichen von Ablenkung.  \nDominierende Datenquelle: Die Einschätzung basiert hauptsächlich auf der Beobachtung der Körperhaltung, die entspannt wirkt."
+  },
+  {
+    "zeitpunkt": "00:01:50",
+    "text": "Stress: niedrig – Der Puls liegt im normalen Bereich, und die entspannte Körperhaltung unterstützt diese Einschätzung. Physiologische Werte zeigen keinen signifikanten Stress.\n\nEntspannung: mittel – Die Person scheint aufrecht zu sitzen und konzentriert zu sein, aber möglicherweise nicht vollständig entspannt, da sie die Fahrzeugbedienung überwachen muss.\n\nAblenkung: niedrig – Die Körperhaltung zeigt keinen Fokus auf andere Aktivitäten, und der Blick scheint auf das Display gerichtet zu sein, was eine Konzentration auf die Fahrsituation vermuten lässt.\n\nDominierende Datenquelle: Die Einschätzung basiert hauptsächlich auf der Körperhaltung und der Pulsrate, die beide keine deutlichen Hinweise auf Stress oder Ablenkung geben."
+  },
+  {
+    "zeitpunkt": "00:02:00",
+    "text": "Stress: niedrig – Der Pulswert von 78 bpm ist im normalen Bereich und die physiologische Werte wie EDA und Bewegung sind niedrig.  \nEntspannung: mittel – Die Körperhaltung wirkt relativ entspannt, da die Person sich bequem im Sitz befindet.  \nAblenkung: niedrig – Die Person scheint ihren Blick auf das Display gerichtet zu haben, was darauf hinweist, dass sie sich auf die Fahrsituation konzentriert.  \nDominierende Datenquelle: Die Einschätzung basiert hauptsächlich auf der Kombination physiologischer Werte, da diese die allgemeine Entspannung der Person widerspiegeln."
+  },
+  {
+    "zeitpunkt": "00:02:10",
+    "text": "Stress: niedrig – Der Puls mit 78 bpm ist im normalen Bereich und die EDA-Werte sind nicht stark erhöht, was auf einen geringen Stresspegel hinweist.  \n\nEntspannung: mittel – Die Körperhaltung wirkt relativ entspannt, obwohl sie das Lenkrad umklammert.  \n\nAblenkung: niedrig – Der Blick ist auf die Fahrumgebung gerichtet und keine offensichtliche Ablenkung durch andere Elemente erkennbar.  \n\nDominierende Datenquelle: Die Einschätzung basiert hauptsächlich auf den physiologischen Werten, da sowohl Puls als auch EDA im normalen Bereich sind und kein starkes Stressniveau anzeigen."
+  },
+  {
+    "zeitpunkt": "00:02:20",
+    "text": "Stress: niedrig – Der Puls befindet sich im normalen Bereich, und die Körperhaltung ist entspannt.  \nEntspannung: mittel – Armhaltung deutet auf relativ entspannte Körperhaltung, jedoch gibt es keine eindeutigen Hinweise auf völlige Entspannung.  \nAblenkung: hoch – Die Person scheint ihre Aufmerksamkeit auf einen Bildschirm gerichtet zu haben, was auf Ablenkung hinweisen könnte.  \nDominierende Datenquelle: Die Einschätzung basiert hauptsächlich auf dem sichtbaren Verhalten, das Ablenkung suggeriert."
+  },
+  {
+    "zeitpunkt": "00:02:30",
+    "text": "Stress: niedrig – Der Puls liegt mit 78 bpm im normalen Bereich, und die Körperhaltung wirkt entspannt.  \nEntspannung: mittel – Die lockere Körperhaltung deutet auf eine gewisse Entspannung hin, jedoch könnte die Vorbereitung auf eine Fahrzeugübernahme Anspannung erzeugen.  \nAblenkung: niedrig – Der Blick ist auf das Lenkrad gerichtet, und es gibt keine sichtbaren Ablenkungen durch das Infotainmentsystem.  \nDominierende Datenquelle: Die Einschätzung basiert hauptsächlich auf der Körperhaltung, da diese auf eine entspannte Haltung hinweist."
+  }
+]

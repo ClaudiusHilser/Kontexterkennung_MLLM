@@ -1,0 +1,1258 @@
+#:import dp kivy.metrics.dp
+#:import Clock kivy.clock.Clock
+#:import Factory kivy.factory.Factory
+
+<SpinnerOption>:
+    height: dp(44)
+
+<MyPopupContent>:
+    canvas.before:
+        Color:
+            rgba: 0, 0, 0, 1
+        Rectangle:
+            pos: self.pos
+            size: self.size
+
+WindowManager:
+    MainWindow:
+    InfotainmentScreen:
+    KlimaScreen:
+    NavigationScreen:
+    FahrzeugdatenScreen:
+    KomfortverbraucherScreen:
+    FahrenScreen:
+
+<MainWindow>:
+    name: "main"
+    BoxLayout:
+        orientation: 'vertical'
+        padding: dp(25)
+        spacing: dp(20)
+        Label:
+            text: "Willkommen zum Experiment im Fahrsimulator.\n\nBitte entspannen Sie sich und folgen Sie aufmerksam den Anweisungen auf diesem Bildschirm.\n\nDas System führt Sie automatisch durch alle Schritte."
+            font_size: '36sp'
+            color: 1, 1, 1, 1
+            halign: 'center'
+            valign: 'middle'
+            text_size: self.width, None
+
+
+<InfotainmentScreen>:
+    name: "infotainment"
+    BoxLayout:
+        orientation: 'vertical'
+        padding: dp(40)  # vorher: dp(25)
+        spacing: dp(30)  # vorher: dp(20)
+
+        Label:
+            text: "Bitte bearbeiten Sie die Ihnen gestellten Aufgaben\nim Infotainmentsystem über die nachfolgenden Menüpunkte."
+            font_size: '30sp'  # vorher: '30sp'
+            color: 1, 1, 1, 1
+            halign: 'center'
+            valign: 'middle'
+            text_size: self.width, None
+            size_hint_y: 0.3
+
+        Widget:
+            size_hint_y: 0.05
+
+        Button:
+            text: "Aufgabe überspringen"
+            font_size: '20sp'
+            size_hint: 0.4, None
+            height: dp(40)
+            pos_hint: {"center_x": 0.5}
+            on_press: root.manager.skip_infotainment_task()
+
+
+        BoxLayout:
+            orientation: 'vertical'
+            spacing: dp(60)  # vorher: dp(30)
+            size_hint_y: 0.65
+
+            Button:
+                text: "Klimasteuerung"
+                font_size: '24sp'
+                size_hint: 0.6, None
+                height: dp(80)
+                pos_hint: {"center_x": 0.5}
+                on_press: app.root.current = 'klima'
+
+            Button:
+                text: "Navigation"
+                font_size: '24sp'
+                size_hint: 0.6, None
+                height: dp(80)
+                pos_hint: {"center_x": 0.5}
+                on_press: app.root.current = 'navigation'
+
+            Button:
+                text: "Fahrzeugdaten"
+                font_size: '24sp'
+                size_hint: 0.6, None
+                height: dp(80)
+                pos_hint: {"center_x": 0.5}
+                on_press: app.root.current = 'fahrzeugdaten'
+
+
+<KlimaScreen@Screen>:
+    name: "klima"
+    temp: 18
+    BoxLayout:
+        orientation: 'vertical'
+        padding: dp(40)  # vorher: dp(25)
+        spacing: dp(30)
+
+        Widget:
+            size_hint_y: None
+            height: dp(40)
+
+        Label:
+            id: temp_label
+            text: "Aktuelle Temperatur: " + str(root.temp) + " °C"
+            font_size: '26sp'
+            color: 1, 1, 1, 1
+            halign: 'center'
+            valign: 'middle'
+            text_size: self.width, None
+            size_hint_y: None
+            height: dp(40)
+
+        BoxLayout:
+            orientation: 'horizontal'
+            spacing: dp(30)
+            size_hint: None, None
+            size: self.minimum_size
+            pos_hint: {"center_x": 0.5}
+
+            Button:
+                text: "-"
+                font_size: '30sp'
+                size_hint: None, None
+                size: dp(80), dp(50)
+                on_press: root.adjust_temp(-1)
+
+            Button:
+                text: "+"
+                font_size: '30sp'
+                size_hint: None, None
+                size: dp(80), dp(50)
+                on_press: root.adjust_temp(1)
+
+
+        Label:
+            id: success_label
+            text: "Die Aufgabe wurde erfolgreich erfüllt"
+            font_size: '26sp'
+            color: 0, 1, 0, 1
+            halign: 'center'
+            valign: 'middle'
+            text_size: self.width, None
+            opacity: 0
+
+        Widget:
+            size_hint_y: None
+            height: dp(30)
+
+        Button:
+            text: "Zurück zum Hauptmenü"
+            font_size: '26sp'
+            size_hint: 0.6, None
+            height: dp(50)
+            pos_hint: {"center_x": 0.5}
+            on_press: app.root.current = 'infotainment'
+
+
+<NavigationScreen@Screen>:
+    name: "navigation"
+    temp_success_shown: False
+    BoxLayout:
+        orientation: 'vertical'
+        padding: dp(40)  # vorher: dp(25)
+        spacing: dp(30)
+
+        Widget:
+            size_hint_y: None
+            height: dp(30)
+
+        Label:
+            text: "Navigation einstellen:"
+            font_size: '26sp'
+            color: 1, 1, 1, 1
+            halign: 'center'
+            valign: 'middle'
+            text_size: self.width, None
+            size_hint_y: None
+            height: dp(30)
+
+        Spinner:
+            id: input_von
+            text: "Startort auswählen"
+            values: ["Fraunhofer IAO, Stuttgart", "Karlsruher Institut für Technologie (KIT)", "Königsbaupassagen", "RWTH Aachen", "Fraunhofer IAT", "Universität Tübingen", "Universität Stuttgart"]
+            font_size: '20sp'
+            size_hint: 0.8, None
+            height: dp(50)
+            pos_hint: {"center_x": 0.5}
+            background_normal: ''
+            background_color: 1, 1, 1, 1
+            color: 0, 0, 0, 1
+
+        Spinner:
+            id: input_nach
+            text: "Zielort auswählen"
+            values: ["Universität Stuttgart", "Universität Tübingen", "Fraunhofer IAT", "RWTH Aachen", "Königsbaupassagen", "Karlsruher Institut für Technologie (KIT)", "Fraunhofer IAO, Stuttgart"]
+            font_size: '20sp'
+            size_hint: 0.8, None
+            height: dp(50)
+            pos_hint: {"center_x": 0.5}
+            background_normal: ''
+            background_color: 1, 1, 1, 1
+            color: 0, 0, 0, 1
+
+        Button:
+            text: "Navigation starten"
+            font_size: '26sp'
+            size_hint: 0.5, None
+            height: dp(50)
+            pos_hint: {"center_x": 0.5}
+            on_press: root.start_navigation()
+
+
+        Label:
+            id: success_label
+            text: "Die Aufgabe wurde erfolgreich erfüllt"
+            font_size: '26sp'
+            color: 0, 1, 0, 1
+            halign: 'center'
+            valign: 'middle'
+            text_size: self.width, None
+            opacity: 0
+
+        Widget:
+            size_hint_y: None
+            height: dp(20)
+
+        Button:
+            text: "Zurück zum Hauptmenü"
+            font_size: '26sp'
+            size_hint: 0.6, None
+            height: dp(50)
+            pos_hint: {"center_x": 0.5}
+            on_press: app.root.current = 'infotainment'
+
+
+
+<FahrzeugdatenScreen@Screen>:
+    name: "fahrzeugdaten"
+    BoxLayout:
+        orientation: 'vertical'
+        padding: dp(40)  # vorher: dp(25)
+        spacing: dp(30)
+
+        Widget:
+            size_hint_y: None
+            height: dp(30)
+
+        Label:
+            text: "Auf welche Fahrzeugdaten möchten Sie zugreifen?"
+            font_size: '26sp'
+            color: 1, 1, 1, 1
+            halign: 'center'
+            valign: 'middle'
+            text_size: self.width, None
+            size_hint_y: None
+            height: dp(40)
+
+        GridLayout:
+            cols: 2
+            spacing: dp(20)
+            size_hint: None, None
+            size: self.minimum_size
+            pos_hint: {"center_x": 0.5}
+
+            Button:
+                text: "Fahrzeugverbrauch"
+                font_size: '22sp'
+                size_hint: None, None
+                size: dp(220), dp(60)
+                on_press: root.show_denied("Kein Zugriff auf diese Daten")
+
+            Button:
+                text: "Komfort-Einstellungen"
+                font_size: '22sp'
+                size_hint: None, None
+                size: dp(220), dp(60)
+                on_press: app.root.current = "komfortverbraucher"
+
+            Button:
+                text: "Fahrzeugfehler"
+                font_size: '22sp'
+                size_hint: None, None
+                size: dp(220), dp(60)
+                on_press: root.show_denied("Kein Zugriff auf diese Daten")
+
+            Button:
+                text: "Reifendruck"
+                font_size: '22sp'
+                size_hint: None, None
+                size: dp(220), dp(60)
+                on_press: root.show_denied("Kein Zugriff auf diese Daten")
+
+        Label:
+            id: info_label
+            text: ""
+            font_size: '20sp'
+            color: 1, 0, 0, 1
+            halign: 'center'
+            valign: 'middle'
+            text_size: self.width, None
+
+        Widget:
+            size_hint_y: None
+            height: dp(20)
+
+        Button:
+            text: "Zurück zum Hauptmenü"
+            font_size: '26sp'
+            size_hint: 0.6, None
+            height: dp(50)
+            pos_hint: {"center_x": 0.5}
+            on_press: app.root.current = 'infotainment'
+
+
+
+<KomfortverbraucherScreen>:
+    name: "komfortverbraucher"
+    BoxLayout:
+        orientation: 'vertical'
+        padding: dp(40)  # vorher: dp(25)
+        spacing: dp(30)
+
+        Label:
+            text: "Wählen Sie eine Komfort-Einstellung:"
+            font_size: '26sp'
+            color: 1, 1, 1, 1
+            halign: 'center'
+            valign: 'middle'
+            text_size: self.width, None
+            size_hint_y: None
+            height: dp(40)
+
+        Label:
+            id: error_label
+            text: "Kein Zugriff auf diese Funktion"
+            font_size: '26sp'
+            color: 1, 0, 0, 1
+            halign: 'center'
+            valign: 'middle'
+            text_size: self.width, None
+            opacity: 0
+
+        GridLayout:
+            cols: 2
+            spacing: dp(20)
+            size_hint: None, None
+            size: self.minimum_size
+            pos_hint: {"center_x": 0.5}
+
+            Button:
+                text: "Sitzheizung"
+                size_hint: None, None
+                size: dp(220), dp(60)
+                on_press: error_label.opacity = 1
+
+            Button:
+                text: "Lenkradheizung"
+                size_hint: None, None
+                size: dp(220), dp(60)
+                on_press: Factory.LenkradheizungScreen().open()
+
+            Button:
+                text: "Klimaanlage"
+                size_hint: None, None
+                size: dp(220), dp(60)
+                on_press: error_label.opacity = 1
+
+            Button:
+                text: "Heckscheibenheizung"
+                size_hint: None, None
+                size: dp(220), dp(60)
+                on_press: error_label.opacity = 1
+
+            Button:
+                text: "Spiegelheizung"
+                size_hint: None, None
+                size: dp(220), dp(60)
+                on_press: error_label.opacity = 1
+
+            Button:
+                text: "Ambientebeleuchtung"
+                size_hint: None, None
+                size: dp(220), dp(60)
+                on_press: error_label.opacity = 1
+
+            Button:
+                text: "Lüftung"
+                size_hint: None, None
+                size: dp(220), dp(60)
+                on_press: error_label.opacity = 1
+
+            Button:
+                text: "Frontscheibenheizung"
+                size_hint: None, None
+                size: dp(220), dp(60)
+                on_press: root.handle_frontscheibe()
+
+        Widget:
+            size_hint_y: None
+            height: dp(20)
+
+        Button:
+            text: "Zurück zum Hauptmenü"
+            font_size: '26sp'
+            size_hint: 0.6, None
+            height: dp(50)
+            pos_hint: {"center_x": 0.5}
+            on_press: app.root.current = 'infotainment'
+
+
+<FahrenScreen@Screen>:
+    name: "fahren"
+    BoxLayout:
+        orientation: 'vertical'
+        padding: dp(40)  # vorher: dp(25)
+        spacing: dp(30)
+        Label:
+            text: "Konzentrieren Sie sich auf die Straße!"
+            font_size: '30sp'
+            color: 1, 1, 1, 1
+            halign: 'center'
+            valign: 'middle'
+            text_size: self.width, None
+
+<Popup_InfotainmentAufgabenerkl@MyPopupContent>:
+    BoxLayout:
+        orientation: 'vertical'
+        padding: dp(40)  # vorher: dp(25)
+        spacing: dp(30)
+        size_hint_x: 0.9
+        pos_hint: {"center_x": 0.5}
+
+        Label:
+            text: "Sie erhalten in Kürze mehrere kurze Aufgaben.\n\nNavigieren Sie dazu jeweils über die Untermenüs des Infotainmentsystems.\n\nNach jeder erledigten Aufgabe kehren Sie automatisch zum Hauptmenü zurück – nach kurzer Zeit folgt die nächste Aufgabe.\n\nNach Ablauf der gesamten Zeit werden Sie darüber informiert und die Aufgaben enden automatisch."
+            font_size: '26sp'
+            color: 1, 1, 1, 1
+            halign: 'center'
+            valign: 'middle'
+            text_size: self.width, None
+
+        Button:
+            text: "OK"
+            font_size: '26sp'
+            size_hint_y: None
+            height: dp(50)
+            on_press: app.root_window.children[0].dismiss()
+
+<Popup_InfotainmentAbschluss@MyPopupContent>:
+    BoxLayout:
+        orientation: 'vertical'
+        padding: dp(40)  # vorher: dp(25)
+        spacing: dp(30)
+        size_hint_x: 0.9
+        pos_hint: {"center_x": 0.5}
+
+        Label:
+            text: "Die Aufgaben im Infotainmentsystem wurden abgeschlossen.\n\nSie werden nun automatisch zurückgeleitet und erhalten anschließend weitere Anweisungen."
+            font_size: '24sp'
+            color: 1, 1, 1, 1
+            halign: 'center'
+            valign: 'middle'
+            text_size: self.width, None
+
+        Button:
+            text: "OK"
+            font_size: '26sp'
+            size_hint_y: None
+            height: dp(50)
+            on_press:
+                app.root.current = 'main'
+                app.root_window.children[0].dismiss()
+
+<Popup_StartKlima@MyPopupContent>:
+    BoxLayout:
+        orientation: 'vertical'
+        padding: dp(40)  # vorher: dp(25)
+        spacing: dp(30)
+        size_hint_x: 0.9
+        pos_hint: {"center_x": 0.5}
+
+        Label:
+            text: "Bitte navigieren Sie zur Klimatisierung und stellen  die Temperatur im Fahrzeug auf 24 °C ein."
+            font_size: '26sp'
+            color: 1,1,1,1
+            halign: 'center'
+            valign: 'middle'
+            text_size: self.width, None
+
+        Button:
+            text: "OK"
+            font_size: '26sp'
+            size_hint_y: None
+            height: dp(50)
+            on_press: app.root_window.children[0].dismiss()
+
+<Popup_StartKlima2@MyPopupContent>:
+    BoxLayout:
+        orientation: 'vertical'
+        padding: dp(40)  # vorher: dp(25)
+        spacing: dp(30)
+        size_hint_x: 0.9
+        pos_hint: {"center_x": 0.5}
+
+        Label:
+            text: "Bitte stellen Sie die Temperatur im Fahrzeug auf 20 °C ein."
+            font_size: '26sp'
+            color: 1,1,1,1
+            halign: 'center'
+            valign: 'middle'
+            text_size: self.width, None
+
+        Button:
+            text: "OK"
+            font_size: '26sp'
+            size_hint_y: None
+            height: dp(50)
+            on_press: app.root_window.children[0].dismiss()
+
+
+<Popup_StartNavigation@MyPopupContent>:
+    BoxLayout:
+        orientation: 'vertical'
+        padding: dp(40)  # vorher: dp(25)
+        spacing: dp(30)
+        size_hint_x: 0.9
+        pos_hint: {"center_x": 0.5}
+
+        Label:
+            text: "Bitte starten Sie eine Navigation\nvom Fraunhofer IAO\nzur Universität Stuttgart."
+            font_size: '26sp'
+            color: 1,1,1,1
+            halign: 'center'
+            valign: 'middle'
+            text_size: self.width, None
+
+        Button:
+            text: "OK"
+            font_size: '26sp'
+            size_hint_y: None
+            height: dp(50)
+            on_press: app.root_window.children[0].dismiss()
+
+<Popup_StartNavigation2@MyPopupContent>:
+    BoxLayout:
+        orientation: 'vertical'
+        padding: dp(40)  # vorher: dp(25)
+        spacing: dp(30)
+        size_hint_x: 0.9
+        pos_hint: {"center_x": 0.5}
+
+        Label:
+            text: "Bitte starten Sie eine Navigation von RWTH Aachen\nzum Karlsruher Institut für Technologie (KIT)."
+            font_size: '26sp'
+            color: 1,1,1,1
+            halign: 'center'
+            valign: 'middle'
+            text_size: self.width, None
+
+        Button:
+            text: "OK"
+            font_size: '26sp'
+            size_hint_y: None
+            height: dp(50)
+            on_press: app.root_window.children[0].dismiss()
+
+
+<Popup_StartLenkgrad@MyPopupContent>:
+    BoxLayout:
+        orientation: 'vertical'
+        padding: dp(40)  # vorher: dp(25)
+        spacing: dp(30)
+        size_hint_x: 0.9
+        pos_hint: {"center_x": 0.5}
+
+        Label:
+            text: "Bitte navigieren Sie zur Lenkradheizung und deaktivieren Sie diese."
+            font_size: '26sp'
+            color: 1,1,1,1
+            halign: 'center'
+            valign: 'middle'
+            text_size: self.width, None
+
+        Button:
+            text: "OK"
+            font_size: '26sp'
+            size_hint_y: None
+            height: dp(50)
+            on_press: app.root_window.children[0].dismiss()
+
+<Popup_StartFrontscheibe@MyPopupContent>:
+    BoxLayout:
+        orientation: 'vertical'
+        padding: dp(40)  # vorher: dp(25)
+        spacing: dp(30)
+        size_hint_x: 0.9
+        pos_hint: {"center_x": 0.5}
+
+        Label:
+            text: "Bitte aktivieren Sie die Frontscheibenheizung."
+            font_size: '26sp'
+            color: 1,1,1,1
+            halign: 'center'
+            valign: 'middle'
+            text_size: self.width, None
+
+        Button:
+            text: "OK"
+            font_size: '26sp'
+            size_hint_y: None
+            height: dp(50)
+            on_press: app.root_window.children[0].dismiss()
+
+
+<Popup0_Name@MyPopupContent>:
+    BoxLayout:
+        orientation: 'vertical'
+        padding: dp(40)  # vorher: dp(25)
+        spacing: dp(30)
+        size_hint_x: 0.9
+        pos_hint: {"center_x": 0.5}
+        Label:
+            text: "Bitte tragen Sie Ihren Namen ein, damit Ihre Daten korrekt gespeichert werden können:"
+            font_size: '26sp'
+            color: 1, 1, 1, 1
+            halign: 'center'
+            valign: 'middle'
+            text_size: self.width, None
+        TextInput:
+            id: name_input
+            hint_text: "Name"
+            font_size: '20sp'
+            multiline: False
+            size_hint_y: None
+            height: dp(40)
+        Button:
+            text: "Abschicken"
+            font_size: '26sp'
+            size_hint_y: None
+            height: dp(45)
+            on_press: root.on_submit()
+
+<LenkradheizungScreen@Popup>:
+    title: ''
+    size_hint: 0.9, 0.6
+    auto_dismiss: False
+    BoxLayout:
+        orientation: 'vertical'
+        padding: dp(40)  # vorher: dp(25)
+        spacing: dp(30)
+
+        Label:
+            text: "Lenkradheizung ist aktiviert"
+            font_size: '28sp'
+            color: 1, 1, 1, 1
+            halign: 'center'
+            valign: 'middle'
+            text_size: self.width, None
+
+        Button:
+            text: "Deaktivieren"
+            font_size: '26sp'
+            size_hint_y: None
+            height: dp(50)
+            on_press: root.show_success()
+
+        Label:
+            id: success_label
+            text: "Die Aufgabe wurde erfolgreich erfüllt"
+            font_size: '26sp'
+            color: 0, 1, 0, 1
+            halign: 'center'
+            valign: 'middle'
+            opacity: 0
+            text_size: self.width, None
+
+        Button:
+            text: "Zurück"
+            font_size: '26sp'
+            size_hint_y: None
+            height: dp(50)
+            on_press: root.dismiss()
+
+
+<Popup1_Rechenaufgabe@MyPopupContent>:
+    BoxLayout:
+        orientation: 'vertical'
+        padding: dp(40)  # vorher: dp(25)
+        spacing: dp(30)
+        size_hint_x: 0.9
+        pos_hint: {"center_x": 0.5}
+        Label:
+            text: "Sie hören gleich eine Reihe von Zahlen.\n\nIhre Aufgabe ist es, jeweils die beiden zuletzt gehörten Zahlen zu addieren und das Ergebnis laut auszusprechen.\n\nWichtig: Rechnen Sie immer nur mit den beiden zuletzt GEHÖRTEN Zahlen – nicht mit vorher berechneten Summen.\n\nBeispiel:\n\nSie hören: 5 – 7 – 3 – 4\n\nSie sagen: 12 (5+7), dann 10 (7+3), dann 7 (3+4)"
+
+            font_size: '28sp'
+            color: 1,1,1,1
+            halign: 'center'
+            valign: 'middle'
+            text_size: self.width, None
+        Label:
+            id: countdown_label
+            text: str(root.seconds) + " s"
+            font_size: '32sp'
+            color: 1,1,1,1
+            size_hint_y: None
+            height: self.texture_size[1]
+            opacity: 1
+        Label:
+            id: hint_label
+            text: "Bitte hören Sie nun aufmerksam zu und addieren Sie die Zahlen."
+            font_size: '28sp'
+            color: 1,1,1,1
+            halign: 'center'
+            valign: 'middle'
+            text_size: self.width, None
+            size_hint_y: None
+            height: self.texture_size[1]
+            opacity: 0
+        Label:
+            id: end_label
+            text: "Vielen Dank. Die Aufgabe ist nun beendet."
+            font_size: '28sp'
+            color: 1,1,1,1
+            halign: 'center'
+            valign: 'middle'
+            text_size: self.width, None
+            size_hint_y: None
+            height: self.texture_size[1]
+            opacity: 0
+
+
+<Popup2_Stresslevel@MyPopupContent>:
+    BoxLayout:
+        orientation: 'vertical'
+        spacing: dp(30)
+        padding: dp(30)
+        size_hint_x: 0.9
+        pos_hint: {"center_x": 0.5}
+        Label:
+            text: "Wie gestresst haben Sie sich während der Aufgabe gefühlt?\n\nBitte bewerten Sie Ihr subjektives Stresslevel auf einer Skala von 1 bis 5"
+            font_size: '28sp'
+            color: 1, 1, 1, 1
+            halign: 'center'
+            valign: 'middle'
+            text_size: self.width, None
+        Slider:
+            id: stress_slider
+            min: 1
+            max: 5
+            step: 1
+            value: 3
+            size_hint: 0.8, None
+            height: dp(40)
+            pos_hint: {"center_x": 0.5}
+            on_value: stress_value_label.text = str(int(self.value))
+        Label:
+            id: stress_value_label
+            text: str(int(stress_slider.value))
+            font_size: '36sp'  # ← größer
+            color: 1, 1, 1, 1
+            size_hint: None, None
+            size: self.texture_size
+            pos_hint: {"center_x": 0.5}
+        Label:
+            text: "1 = gar nicht gestresst  2 = eher nicht gestresst  3 = weder noch  4 = eher gestresst  5 = sehr gestresst"
+            font_size: '20sp'
+            color: 1, 1, 1, 1
+            halign: 'center'
+            valign: 'middle'
+            text_size: self.width, None
+            size_hint_y: None
+            height: self.texture_size[1]
+            pos_hint: {"center_x": 0.5}
+
+        Button:
+            text: "Abschicken"
+            font_size: '26sp'
+            size_hint: 0.5, None
+            height: dp(50)
+            pos_hint: {"center_x": 0.5}
+            on_press: root.on_submit(int(stress_slider.value))
+
+<Popup2_2_Stresslevel@MyPopupContent>:
+    BoxLayout:
+        orientation: 'vertical'
+        spacing: dp(30)
+        padding: dp(30)
+        size_hint_x: 0.9
+        pos_hint: {"center_x": 0.5}
+        Label:
+            text: "Wie gestresst haben Sie sich während der Übernahme gefühlt?\n\nBitte bewerten Sie Ihr subjektives Stresslevel auf einer Skala von 1 bis 5"
+            font_size: '28sp'
+            color: 1, 1, 1, 1
+            halign: 'center'
+            valign: 'middle'
+            text_size: self.width, None
+        Slider:
+            id: stress_slider
+            min: 1
+            max: 5
+            step: 1
+            value: 3
+            size_hint: 0.8, None
+            height: dp(40)
+            pos_hint: {"center_x": 0.5}
+            on_value: stress_value_label.text = str(int(self.value))
+        Label:
+            id: stress_value_label
+            text: str(int(stress_slider.value))
+            font_size: '36sp'  # ← größer
+            color: 1, 1, 1, 1
+            size_hint: None, None
+            size: self.texture_size
+            pos_hint: {"center_x": 0.5}
+        Label:
+            text: "1 = gar nicht  2 = wenig  3 = mittel  4 = viel  5 = sehr viel"
+            font_size: '20sp'
+            color: 1, 1, 1, 1
+            halign: 'center'
+            valign: 'middle'
+            text_size: self.width, None
+            size_hint_y: None
+            height: self.texture_size[1]
+            pos_hint: {"center_x": 0.5}
+        Button:
+            text: "Abschicken"
+            font_size: '26sp'
+            size_hint: 0.5, None
+            height: dp(50)
+            pos_hint: {"center_x": 0.5}
+            on_press: root.on_submit(int(stress_slider.value))
+
+<Popup3_Musikintervention@MyPopupContent>:
+    BoxLayout:
+        orientation: 'vertical'
+        spacing: dp(30)
+        padding: dp(30)
+        size_hint_x: 0.9
+        pos_hint: {"center_x": 0.5}
+        Label:
+            text: "Das System hat Stress erkannt – zur Entspannung wird nun Musik abgespielt."
+            font_size: '30sp'
+            color: 1, 1, 1, 1
+            halign: 'center'
+            valign: 'middle'
+            text_size: self.width, None
+        Label:
+            text: str(root.seconds) + " s"
+            font_size: '32sp'
+            color: 1, 1, 1, 1
+            size_hint: None, None
+            size: self.texture_size
+            pos_hint: {"center_x": 0.5}
+
+# Popup4_Entspannung1: ask how much the music helped via slider
+<Popup4_Entspannung1@MyPopupContent>:
+    BoxLayout:
+        orientation: 'vertical'
+        spacing: dp(30)
+        padding: dp(30)
+        size_hint_x: 0.9
+        pos_hint: {"center_x": 0.5}
+
+        Label:
+            text: "Wie sehr hat die Musik zur Entspannung beigetragen?\n\nBitte bewerten Sie auf einer Skala von 1 bis 5:"
+            font_size: '28sp'
+            color: 1, 1, 1, 1
+            halign: 'center'
+            valign: 'top'
+            text_size: self.width, None
+
+        Slider:
+            id: entspannung1_slider
+            min: 1
+            max: 5
+            step: 1
+            value: 3
+            size_hint: 0.8, None
+            height: '40dp'
+            pos_hint: {"center_x": 0.5}
+            on_value: entspannung1_value_label.text = str(int(self.value))
+
+        Label:
+            id: entspannung1_value_label
+            text: str(int(entspannung1_slider.value))
+            font_size: '36sp'
+            color: 1, 1, 1, 1
+            size_hint: None, None
+            size: self.texture_size
+            pos_hint: {"center_x": 0.5}
+
+        Label:
+            text: "1 = gar nicht  2 = wenig  3 = mittel  4 = viel  5 = sehr viel"
+            font_size: '20sp'
+            color: 1, 1, 1, 1
+            halign: 'center'
+            valign: 'middle'
+            text_size: self.width, None
+            size_hint_y: None
+            height: self.texture_size[1]
+            pos_hint: {"center_x": 0.5}
+
+        Button:
+            text: "Abschicken"
+            font_size: '26sp'
+            size_hint: 0.5, None
+            height: '40dp'
+            pos_hint: {"center_x": 0.5}
+            on_press: root.on_submit(int(entspannung1_slider.value))
+
+
+# Popup5_Entspannung2: choice to accept or decline music recommendation
+<Popup5_Entspannung2@MyPopupContent>:
+    BoxLayout:
+        orientation: 'vertical'
+        spacing: dp(30)
+        padding: dp(30)
+        size_hint_x: 0.9
+        pos_hint: {"center_x": 0.5}
+
+        Label:
+            text: "Finden Sie Musik grundsätzlich geeignet,\num Fahrerinnen und Fahrer im Fahrzeug gezielt zu beruhigen?"
+            font_size: '28sp'
+            color: 1, 1, 1, 1
+            halign: 'center'
+            valign: 'top'
+            text_size: self.width, None
+
+        BoxLayout:
+            orientation: 'horizontal'
+            size_hint: 0.8, None
+            height: '40dp'
+            spacing: dp(10)
+            pos_hint: {"center_x": 0.5}
+
+            Button:
+                text: "Ja"
+                font_size: '26sp'
+                on_press: root.submit_choice("Ja")
+
+            Button:
+                text: "Nein"
+                font_size: '26sp'
+                on_press: root.submit_choice("Nein")
+
+
+
+# Popup6_Ablenkung1: ask distraction level via slider
+<Popup6_Ablenkung1@MyPopupContent>:
+    BoxLayout:
+        orientation: 'vertical'
+        spacing: dp(30)
+        padding: dp(30)
+        size_hint_x: 0.9
+        pos_hint: {"center_x": 0.5}
+
+        Label:
+            text: "Wie stark haben Sie sich während der Aufgabe abgelenkt gefühlt?\n\nBitte bewerten Sie auf einer Skala von 1 bis 5:"
+            font_size: '28sp'
+            color: 1, 1, 1, 1
+            halign: 'center'
+            valign: 'top'
+            text_size: self.width, None
+
+        Slider:
+            id: ablenkung_slider
+            min: 1
+            max: 5
+            step: 1
+            value: 3
+            size_hint: 0.8, None
+            height: '40dp'
+            pos_hint: {"center_x": 0.5}
+            on_value: ablenkung_value_label.text = str(int(self.value))
+
+        Label:
+            id: ablenkung_value_label
+            text: str(int(ablenkung_slider.value))
+            font_size: '36sp'
+            color: 1, 1, 1, 1
+            size_hint: None, None
+            size: self.texture_size
+            pos_hint: {"center_x": 0.5}
+
+        Label:
+            text: "1 = gar nicht  2 = wenig  3 = mittel  4 = viel  5 = sehr viel"
+            font_size: '20sp'
+            color: 1, 1, 1, 1
+            halign: 'center'
+            valign: 'middle'
+            text_size: self.width, None
+            size_hint_y: None
+            height: self.texture_size[1]
+            pos_hint: {"center_x": 0.5}
+
+        Button:
+            text: "Abschicken"
+            font_size: '26sp'
+            size_hint: 0.5, None
+            height: '40dp'
+            pos_hint: {"center_x": 0.5}
+            on_press: root.on_submit(int(ablenkung_slider.value))
+
+
+# Popup7_Warnungswunsch: ask if user wanted a warning (yes/no)
+<Popup7_Warnungswunsch@MyPopupContent>:
+    BoxLayout:
+        orientation: 'vertical'
+        spacing: dp(30)
+        padding: dp(30)
+        size_hint_x: 0.9
+        pos_hint: {"center_x": 0.5}
+
+        Label:
+            text: "Halten Sie es grundsätzlich für sinnvoll,\ndass das Fahrzeug eine Warnung ausgibt,\nwenn es erkennt, dass Sie abgelenkt sind?"
+            font_size: '28sp'
+            color: 1, 1, 1, 1
+            halign: 'center'
+            valign: 'top'
+            text_size: self.width, None
+
+        BoxLayout:
+            orientation: 'horizontal'
+            size_hint: 0.8, None
+            height: '40dp'
+            spacing: dp(10)
+            pos_hint: {"center_x": 0.5}
+
+            Button:
+                text: "Ja"
+                font_size: '26sp'
+                on_press: root.submit_choice("Ja")
+
+            Button:
+                text: "Nein"
+                font_size: '26sp'
+                on_press: root.submit_choice("Nein")
+
+
+<Popup8_StehendesFahrzeug@MyPopupContent>:
+    BoxLayout:
+        orientation: 'vertical'
+        spacing: dp(30)
+        padding: dp(30)
+        size_hint_x: 0.9
+        pos_hint: {"center_x": 0.5}
+
+        Label:
+            text: "Haben Sie das Pannenfahrzeug auf der Fahrbahn wahrgenommen?"
+            font_size: '28sp'
+            color: 1, 1, 1, 1
+            halign: 'center'
+            valign: 'middle'
+            text_size: self.width, None
+
+        BoxLayout:
+            orientation: 'horizontal'
+            size_hint: 0.8, None
+            height: dp(50)
+            spacing: dp(10)
+            pos_hint: {"center_x": 0.5}
+
+            Button:
+                text: "Ja"
+                font_size: '26sp'
+                on_press: root.submit_choice("Ja")
+
+            Button:
+                text: "Nein"
+                font_size: '26sp'
+                on_press: root.submit_choice("Nein")
+
+
+<Popup9_ManuelleFahrt@MyPopupContent>:
+    BoxLayout:
+        orientation: 'vertical'
+        spacing: dp(30)
+        padding: dp(30)
+        size_hint_x: 0.9
+        pos_hint: {"center_x": 0.5}
+
+        Label:
+            text: "Achtung: Es wurde eine Baustelle erkannt.\n\nBitte bereiten Sie sich darauf vor, nach Ablauf des Countdowns die Kontrolle über das Fahrzeug zu übernehmen.\n\nFahren Sie anschließend manuell weiter und parken Sie das Fahrzeug an der im Briefing genannten Stelle."
+            font_size: '28sp'
+            color: 1, 1, 1, 1
+            halign: 'center'
+            valign: 'top'
+            text_size: self.width, None
+
+        Label:
+            text: str(root.seconds)
+            font_size: '32sp'
+            color: 1, 1, 1, 1
+            size_hint: None, None
+            size: self.texture_size
+            pos_hint: {"center_x": 0.5}
+
+
+
+
+<Popup10_HinweisFahren@MyPopupContent>:
+    BoxLayout:
+        orientation: 'vertical'
+        spacing: dp(30)
+        padding: dp(30)
+        size_hint_x: 0.9
+        pos_hint: {"center_x": 0.5}
+        Label:
+            text: "Automatisierter Fahrmodus wird nach Ablauf des Timers wieder aktiviert."
+            font_size: '28sp'
+            color: 1, 1, 1, 1
+            halign: 'center'
+            valign: 'top'
+            text_size: self.width, None
+        Label:
+            text: str(root.seconds)
+            font_size: '32sp'
+            color: 1, 1, 1, 1
+            size_hint: None, None
+            size: self.texture_size
+            pos_hint: {"center_x": 0.5}
+
+<Popup11_Abschluss@MyPopupContent>:
+    BoxLayout:
+        orientation: 'vertical'
+        spacing: dp(30)
+        padding: dp(30)
+        size_hint_x: 0.9
+        pos_hint: {"center_x": 0.5}
+
+        Label:
+            text: "Vielen Dank für Ihre Teilnahme.\n\nDas Fahrzeug ist geparkt und das Experiment ist nun beendet.\n\nSie können den Simulator nun verlassen."
+            font_size: '28sp'
+            color: 1, 1, 1, 1
+            halign: 'center'
+            valign: 'middle'
+            text_size: self.width, None
+
+            font_size: '28sp'
+            color: 1, 1, 1, 1
+            halign: 'center'
+            valign: 'middle'
+            text_size: self.width, None
+
+
+
+<Popup_Kontrollgefühl@MyPopupContent>:
+    BoxLayout:
+        orientation: 'vertical'
+        spacing: dp(30)
+        padding: dp(30)
+        size_hint_x: 0.9
+        pos_hint: {"center_x": 0.5}
+
+        Label:
+            text: "Wie sicher fühlten Sie sich nach der Übernahme?\n\nBitte bewerten Sie auf einer Skala von 1 bis 5:"
+            font_size: '28sp'
+            color: 1, 1, 1, 1
+            halign: 'center'
+            valign: 'top'
+            text_size: self.width, None
+
+        Slider:
+            id: kontroll_slider
+            min: 1
+            max: 5
+            step: 1
+            value: 3
+            size_hint: 0.8, None
+            height: '40dp'
+            pos_hint: {"center_x": 0.5}
+            on_value: kontroll_value_label.text = str(int(self.value))
+
+        Label:
+            id: kontroll_value_label
+            text: str(int(kontroll_slider.value))
+            font_size: '36sp'
+            color: 1, 1, 1, 1
+            size_hint: None, None
+            size: self.texture_size
+            pos_hint: {"center_x": 0.5}
+
+        Label:
+            text: "1 = gar nicht  2 = wenig  3 = mittel  4 = viel  5 = sehr sicher"
+            font_size: '20sp'
+            color: 1, 1, 1, 1
+            halign: 'center'
+            valign: 'middle'
+            text_size: self.width, None
+            size_hint_y: None
+            height: self.texture_size[1]
+            pos_hint: {"center_x": 0.5}
+
+        Button:
+            text: "Abschicken"
+            font_size: '26sp'
+            size_hint: 0.5, None
+            height: '40dp'
+            pos_hint: {"center_x": 0.5}
+            on_press: root.on_submit(int(kontroll_slider.value))
+
+
+<Popup_Vorbereitung@MyPopupContent>:
+    BoxLayout:
+        orientation: 'vertical'
+        spacing: dp(30)
+        padding: dp(30)
+        size_hint_x: 0.9
+        pos_hint: {"center_x": 0.5}
+
+        Label:
+            text: "Hatten Sie genügend Zeit, sich auf die Übernahme vorzubereiten?"
+            font_size: '30sp'
+            color: 1, 1, 1, 1
+            text_size: self.width, None
+            halign: 'center'
+            valign: 'middle'
+
+        BoxLayout:
+            orientation: 'horizontal'
+            size_hint: 0.8, None
+            height: '40dp'
+            spacing: dp(10)
+            pos_hint: {"center_x": 0.5}
+
+            Button:
+                text: "Ja"
+                font_size: '26sp'
+                on_press: root.submit_choice("Ja")
+
+            Button:
+                text: "Nein"
+                font_size: '26sp'
+                on_press: root.submit_choice("Nein")
+
+
+
+<Popup_StoppschildHinweis@MyPopupContent>:
+    BoxLayout:
+        orientation: 'vertical'
+        padding: dp(40)
+        spacing: dp(30)
+
+        Label:
+            text: "Bitte halten Sie das Auto\nam Stoppschild an."
+            font_size: '36sp'
+            halign: 'center'
+            valign: 'middle'
+            color: 1, 1, 1, 1
+            text_size: self.width, None
+

@@ -1,0 +1,5 @@
+Szenario,Kategorie,sum,count,Agreement_Score
+Musikintervention,Entspannung,2,10,0.2
+szenario_1,Stress,1,10,0.1
+szenario_2,Ablenkung,4,10,0.4
+szenario_3,Stress,4,10,0.4

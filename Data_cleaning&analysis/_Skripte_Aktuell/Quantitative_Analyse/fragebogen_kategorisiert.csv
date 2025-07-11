@@ -1,0 +1,12 @@
+teilnehmer,szenario_1_stress,Musikintervention_entspannung,szenario_2_ablenkung,szenario_3_stress
+teilnehmer_08,hoch,hoch,hoch,niedrig
+teilnehmer_09,hoch,hoch,mittel,niedrig
+teilnehmer_02,hoch,mittel,niedrig,niedrig
+teilnehmer_03,hoch,hoch,hoch,niedrig
+teilnehmer_04,hoch,hoch,mittel,mittel
+teilnehmer_05,hoch,mittel,niedrig,niedrig
+teilnehmer_07,hoch,niedrig,mittel,niedrig
+teilnehmer_06,hoch,hoch,hoch,niedrig
+teilnehmer_01,hoch,hoch,hoch,hoch
+teilnehmer_11,hoch,hoch,niedrig,niedrig
+teilnehmer_10,niedrig,hoch,hoch,hoch

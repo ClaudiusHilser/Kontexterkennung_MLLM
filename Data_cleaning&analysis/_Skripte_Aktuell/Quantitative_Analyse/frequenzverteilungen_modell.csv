@@ -1,0 +1,13 @@
+Szenario,Kategorie,hoch,mittel,niedrig
+Musikintervention,Ablenkung,5,4,1
+Musikintervention,Entspannung,0,9,1
+Musikintervention,Stress,0,3,7
+szenario_1,Ablenkung,9,1,0
+szenario_1,Entspannung,0,8,2
+szenario_1,Stress,0,4,6
+szenario_2,Ablenkung,10,0,0
+szenario_2,Entspannung,0,9,1
+szenario_2,Stress,0,2,8
+szenario_3,Ablenkung,0,0,10
+szenario_3,Entspannung,0,4,6
+szenario_3,Stress,0,6,4
