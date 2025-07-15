@@ -1,7 +1,7 @@
 # Code zur Masterarbeit – Multimodale Kontexterkennung im Fahrzeug
 
 Dieses Repository enthält den vollständigen Quellcode zur Masterarbeit „Multimodale Kontexterfassung im Fahrzeug zur Optimierung der Fahrerinteraktion: Analyse und Prototypentwicklung unter Nutzung von Multimodalen Großen Sprachmodellen“, erstellt an der Universität Stuttgart in Kooperation mit dem Fraunhofer IAO.
-Inhalte
+
 
 **Der Code ist in zwei Hauptbereiche gegliedert:**
 1. Kivy-basierte App
