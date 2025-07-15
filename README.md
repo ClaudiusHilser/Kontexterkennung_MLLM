@@ -11,4 +11,5 @@ Grafische Benutzeroberfläche zur Szenariensteuerung im Fahrsimulator sowie zur 
 Skripte zur Synchronisation, Filterung und Strukturierung multimodaler Eingangsdaten (Video, Sensorik, Zeitstempel), zur Übergabe an das MLLM sowie zur Bewertung und    Visualisierung der Modellantworten.
 
 **Lizenz**
+
 Der Code ist ausschließlich für wissenschaftliche Zwecke freigegeben. Bei Fragen zur Nutzung oder Weiterverwendung bitte Kontakt aufnehmen.
