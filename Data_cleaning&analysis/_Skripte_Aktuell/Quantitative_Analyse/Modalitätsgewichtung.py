@@ -54,7 +54,7 @@ for tn in range(2, 12):
             modal_line = next((line for line in text_raw.split("\n") if "Dominierende Datenquelle" in line), "")
             modal_line_lower = modal_line.lower()
 
-            # Erweiterte Modalitätszuordnung
+            #  Modalitätszuordnung
             bild_keywords = [
                 "bild", "blick", "visuell", "sichtbar", "sichtbarkeit", "anzeichen",
                 "orientierung", "aufmerksamkeit", "interaktion mit", "infotainmentsystem", "tablet",

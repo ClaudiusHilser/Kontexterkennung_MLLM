@@ -11,7 +11,7 @@ szenarien = ["szenario_1", "musikintervention", "szenario_2", "szenario_3"]
 intervall = 10
 qualitaet = "3"  # ffmpeg-Qualität (5 = ca. 30–50 KB)
 
-# Basisverzeichnis (z. B. dort wo du das Skript speicherst)
+# Basisverzeichnis (z. B. dort wo das speichern)
 basis_pfad = os.path.abspath(teilnehmer_ordner)
 video_ordner = os.path.join(basis_pfad, "videos")
 

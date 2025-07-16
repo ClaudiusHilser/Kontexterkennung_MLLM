@@ -38,7 +38,7 @@ labels = [
     "5 – sehr sicher"
 ]
 
-# Optimierte Farbstufen (kräftigeres Türkis bei 5)
+# Farbstufen
 farben = ["#F1948A", "#F8C471", "#F9E79F", "#7DCEA0", "#45B39D"]
 
 fig, ax = plt.subplots(figsize=(6, 6))

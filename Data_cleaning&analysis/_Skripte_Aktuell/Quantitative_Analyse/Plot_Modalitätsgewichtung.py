@@ -12,9 +12,9 @@ pivot_df = pivot_df[["Physiologie", "Bild", "Beides"]]
 
 # Farben automatisch
 colors = {
-    "Physiologie": "#89B4F8",  # kräftigeres Pastellblau
-    "Bild": "#FFBC8B",         # wärmeres Pastellorange
-    "Beides": "#88DFC5",       # frisches Pastellgrün
+    "Physiologie": "#89B4F8",
+    "Bild": "#FFBC8B",
+    "Beides": "#88DFC5",
 }
 
 # Plot

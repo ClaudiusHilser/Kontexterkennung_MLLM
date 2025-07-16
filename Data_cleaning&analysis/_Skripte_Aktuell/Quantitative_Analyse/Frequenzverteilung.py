@@ -30,5 +30,5 @@ frequenzen = (
 # Ergebnis anzeigen
 print(frequenzen)
 
-# Optional: als CSV speichern
+# als CSV speichern
 frequenzen.to_csv("frequenzverteilungen_modell.csv", index=False, encoding="utf-8")
